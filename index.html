@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+			<title>文天玩WenTian Play | 官方网站</title>
+			<meta charset="utf-8" />
+			<meta name="keywords" content="文天玩WenTian Play">
+			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+			<link rel="stylesheet" href="assets/css/main.css" />
+			<link rel="shortcut icon" href="images/cd.ico"/>
+			<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Imagine  Server</strong> <span> 官方网站</span></a>
+						<nav>
+							<a href="#menu">菜单</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">首页</a></li>
+							<li><a href="https://g.wentianplay.com/">店铺</a></li>
+							<li><a href="https://mm.wentianplay.com/">临时官网</a></li>
+							<li><a href="https://bilibili.wentianplay.com/">哔哩哔哩</a></li>
+							<li><a href="https://YouTube.wentianplay.com/">YouTube</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="https://qq.wentianplay.com/" class="button primary fit">加入玩家交流群</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>欢迎来到 文天玩 WenTian Play </h1>
+							</header>
+							<div class="content">
+								<p id="h1"></p>
+								<ul class="actions ">
+									<li><a href="#two" class="button next scrolly">踏上探险之旅</a></li>
+								</ul>
+							</div>
+						</div>
+						
+					</section>
+					<script>
+					window.onload=function starttime(){
+					        time(h1,'2015/2/13');   
+					        ptimer = setTimeout(starttime,1000); 
+					}
+					    function time(obj,futimg){
+					        var nowtime = new Date().getTime(); 
+					        var futruetime =  new Date(futimg).getTime(); 
+					        var msec = nowtime-futruetime; 
+					        var time = (msec/1000);  
+					        var day = parseInt(time/86400); 
+					        var hour = parseInt(time/3600)-24*day;    
+					        var minute = parseInt(time%3600/60); 
+					        var second = parseInt(time%60); 
+					        obj.innerHTML="文天玩已运行"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+""
+					}
+					</script>
+	</body>
+</html>
