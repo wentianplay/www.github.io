@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WenTianPlay API Maintenance</title>
+    <style>
+        :root {
+            --primary-color: #2D3047;
+            --accent-color: #5C6BC0;
+            --text-color: #1a1a1a;
+            --bg-color: #ffffff;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 10s ease infinite;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .floating-element {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(135deg, rgba(92, 107, 192, 0.1), rgba(92, 107, 192, 0.05));
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .floating-element:nth-child(1) {
+            top: -150px;
+            right: -150px;
+        }
+
+        .floating-element:nth-child(2) {
+            bottom: -150px;
+            left: -150px;
+            animation-delay: -3s;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header h2 {
+            font-size: 1.8rem;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            position: relative;
+        }
+
+        .section {
+            padding: 1rem;
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            color: var(--text-color);
+            margin-bottom: 1.2rem;
+            line-height: 1.8;
+        }
+
+        strong {
+            color: var(--accent-color);
+            font-weight: 700;
+        }
+
+        .signature {
+            margin-top: 2rem;
+            font-style: italic;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(0,0,0,0.1);
+            color: var(--text-color);
+        }
+
+        @media (max-width: 968px) {
+            .content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .container {
+                padding: 2rem;
+                margin: 1rem;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .header h2 {
+                font-size: 1.4rem;
+            }
+
+            .section h2 {
+                font-size: 1.6rem;
+            }
+
+            .section p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+
+        <header class="header">
+            <h1>WenTianPlay API Service Update</h1>
+            <h2>文天玩API服务升级公告</h2>
+        </header>
+
+        <div class="content">
+            <section class="section">
+                <h2>API Service Enhancement in Progress</h2>
+                <p>
+                    Dear developers and partners, thank you for your continued support of <strong>WenTianPlay</strong> API services. We sincerely appreciate your trust and collaboration.
+                </p>
+                <p>
+                    To provide a more stable, efficient, and feature-rich API service experience, we are currently conducting a comprehensive system upgrade and architecture optimization. During this period, some API interfaces may be temporarily unavailable or experience brief service interruptions.
+                </p>
+                <p>
+                    This upgrade includes performance optimization, security reinforcement, and the addition of new features. We are committed to building a more robust and flexible service platform to better support your development needs and business growth.
+                </p>
+                <p>
+                    During the maintenance period, we recommend planning your API calls in advance. We apologize for any inconvenience caused and appreciate your understanding and patience.
+                </p>
+                <p class="signature">Best regards, The WenTianPlay Team</p>
+            </section>
+
+            <section class="section">
+                <h2>API服务全面升级中</h2>
+                <p>
+                    各位开发者与合作伙伴，感谢您一直以来对 <strong>文天玩</strong> API服务的支持，我们衷心感激您的信赖与合作。
+                </p>
+                <p>
+                    为了提供更稳定、高效且功能丰富的API服务体验，我们正在进行全面的系统升级与架构优化。在此期间，部分API接口可能暂时无法访问或出现短暂服务中断。
+                </p>
+                <p>
+                    本次升级包含性能优化、安全加固及新功能加入。我们致力于打造更强大、更灵活的服务平台，以更好地支持您的开发需求与业务发展。
+                </p>
+                <p>
+                    维护期间，建议您提前规划API调用安排。对于可能造成的不便，我们深表歉意，感谢您的理解与耐心等待。
+                </p>
+                <p class="signature">文天玩团队敬上</p>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 WenTianPlay. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
