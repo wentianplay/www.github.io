@@ -1,0 +1,300 @@
+{
+    "权威域名": {
+        "icon": "",
+        "data": [
+            {
+                "name": "国际官网",
+                "icon": "./assets/icon.ico",
+                "url": "https://www.wentianplay.com",
+                "describe": "文天玩WenTianPlay国际站-文天玩网络科技有限公司"
+            },
+            {
+                "name": "中国官网",
+                "icon": "./assets/icon.ico",
+                "url": "https://www.wentianplay.cn",
+                "describe": "文天玩WenTianPlay中国站-文天玩网络科技有限公司"
+            },
+            {
+                "name": "数据官网",
+                "icon": "./assets/icon.ico",
+                "url": "https://www.wentianplay.net",
+                "describe": "文天玩WenTianPlay数据站-文天玩网络科技有限公司"
+                },
+            {
+                "name": "资讯官网",
+                "icon": "./assets/icon.ico",
+                "url": "https://www.wentianplay.top",
+                "describe": "文天玩WenTianPlay资讯站(前身论坛站)-文天玩网络科技有限公司"
+                },
+            {
+                "name": "品牌官网",
+                "icon": "./assets/icon.ico",
+                "url": "https://www.wentianwan.com",
+                "describe": "文天玩WenTianPlay品牌站-文天玩网络科技有限公司"
+                },
+            {
+                "name": "团队官网",
+                "icon": "./assets/icon.ico",
+                "url": "https://www.wentianwan.cn",
+                "describe": "文天玩WenTianPlay团队站-文天玩网络科技有限公司"
+                },
+            {
+                "name": "边缘官网",
+                "icon": "./assets/icon.ico",
+                "url": "https://www.wentianplays.com",
+                "describe": "文天玩WenTianPlay边缘站-文天玩网络科技有限公司"
+            },
+            {
+                "name": "《天彬》官方网站",
+                "icon": "https://www.tianbin.net/icon.ico",
+                "url": "https://www.tianbin.net",
+                "describe": "《天彬TianBIN》"
+            }
+        ]
+    },
+    "网媒导航": {
+        "icon": "",
+        "data": [
+            {
+                "name": "店铺(平台代营)",
+                "icon": "./assets/icon.ico",
+                "url": "https://G.WenTianPlay.com/",
+                "describe": "文天玩WenTian Play店铺―—(平台代营)"
+            },
+            {
+                "name": "邮箱联系(QQ)",
+                "icon": "https://mail.qq.com/favicon.ico",
+                "url": "mailto:wentianplay@qq.com",
+                "describe": "苏天彬(苏文飞)-QQ邮箱"
+            },
+            {
+                "name": "邮箱联系(163网易)",
+                "icon": "https://mail.163.com/favicon.ico",
+                "url": "mailto:wentianplay@163.com",
+                "describe": "苏天彬(苏文飞)-163网易邮箱"
+            },
+            {
+                "name": "邮箱联系(foxmail)",
+                "icon": "https://www.foxmail.com/favicon.ico",
+                "url": "mailto:wentianplay@foxmail.com",
+                "describe": "苏天彬(苏文飞)-foxmail邮箱"
+            },
+            {
+                "name": "邮箱联系(Outlook)",
+                "icon": "https://www.outlook.com/owa/favicon.ico",
+                "url": "mailto:wentianplay@outlook.com",
+                "describe": "苏天彬(苏文飞)-Outlook邮箱"
+            },
+            {
+                "name": "邮箱联系(Gmail)",
+                "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
+                "url": "mailto:wentianplay@Gmail.com",
+                "describe": "苏天彬(苏文飞)-Gmail邮箱"
+            },
+            {
+                "name": "KOOK-天彬",
+                "icon": "https://m.kookapp.cn/favicon.ico",
+                "url": "https://www.kookapp.cn/app/invite/6GcFWj",
+                "describe": "KOOK里有各种主题的服务器，你也可以根据自己的喜好，创造..."
+            },
+            {
+                "name": "Discord-天彬",
+                "icon": "https://discord.do/favicon.ico",
+                "url": "https://discord.gg/CwJqM27Nb7",
+                "describe": "Discord 是一款通讯工具，可以帮助用户通过文本、语音和视频聊天与社区和朋友保持连接。"   
+            }
+        ]
+    },
+    "常用推荐": {
+        "icon": "",
+        "data": [
+            {
+                "name": "哔哩哔哩",
+                "icon": "https://www.bilibili.com/favicon.ico",
+                "url": "https://www.bilibili.com/",
+                "describe": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili"
+            },
+            {
+                "name": "YouTube",
+                "icon": "https://www.youtube.com/favicon.ico",
+                "url": "https://www.youtube.com/",
+                "describe": "Stay updated with the latest news and trends on …"
+            },
+            {
+                "name": "爱奇艺",
+                "icon": "https://www.iqiyi.com/favicon.ico",
+                "url": "https://www.iqiyi.com/",
+                "describe": "爱奇艺-在线视频网站-海量正版高清视频在线观看"
+            },
+            {
+                "name": "腾讯视频",
+                "icon": "https://v.qq.com/favicon.ico",
+                "url": "https://v.qq.com/",
+                "describe": "腾讯视频-中国领先的在线视频媒体平台,海量高清视频在线观看"
+            },
+            {
+                "name": "优酷",
+                "icon": "https://www.youku.com/favicon.ico",
+                "url": "https://www.youku.com/",
+                "describe": "优酷 - 为好内容全力以赴 - 海量正版高清视频在线观看"
+            },
+            {
+                "name": "聚名网",
+                "icon": "https://ossjm.oss-accelerate.aliyuncs.com/pub/img/juming_ico.ico",
+                "url": "https://www.juming.com/",
+                "describe": "聚名网-到期域名查询抢注-域名注册-老域名买卖交易平台"
+            },
+            {
+                "name": "Minecraft",
+                "icon": "https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon.ico",
+                "url": "https://www.minecraft.net/",
+                "describe": "在 Minecraft 官方网站上探索新的游戏冒险、配件和商品。 在此处购买并下载游戏，或查看网站以获取最新消息。"
+            },
+            {
+                "name": "PCL II",
+                "icon": "https://pcl2.aoe.top/favicon.ico",
+                "url": "https://pcl2.aoe.top/",
+                "describe": "PCL2（Plain Craft Launcher 2）是由龙腾猫跃开发的免费开源 Minecraft 启动器。支持 Forge、Fabric、模组管理、自动下载、自定义主题等功能。立即下载体验最好用的我 …"                              
+            },
+            {
+                "name": "PCL 社区版",
+                "icon": "https://pclce-web.demo.fis.ink/favicon.ico",
+                "url": "https://pclce-web.demo.fis.ink/",
+                "describe": "PCL2社区版是一个开源免费的Minecraft启动器，支持分享mod、多账号切换和Java版本管理等功能。" 
+            },
+            {
+                "name": "Steam",
+                "icon": "https://store.steampowered.com/favicon.ico",
+                "url": "https://store.steampowered.com/",
+                "describe": "您可以在下方看到多款您可能感兴趣的产品。Steam是游戏、讨论和创造游戏的最终目的地。"
+            },
+            {
+                "name": "微信文件传输web",
+                "icon": "https://filehelper.weixin.qq.com/favicon.ico",
+                "url": "https://filehelper.weixin.qq.com/?from=windows&type=recommend",
+                "describe": "微信文件传输助手网页版"
+            },
+            {
+                "name": "蚂蚁课堂",
+                "icon": "http://www.wentianplay.com/index/API/assets/siteIcons/mayikt.png",
+                "url": "http://www.mayikt.com/",
+                "describe": "余胜军IT教学网站蚂蚁课堂专注于Java/Python课程：专注年轻人的IT在线教育平台，网站包含：java架构技术教程，微服务架构课程，高并发大流量专题，Redis缓存技术课程等。"
+            },
+            {
+                "name": "黑客网站大全",
+                "icon": "./assets/icon.ico",
+                "url": "https://web-api.wentianplay.net",
+                "describe": "黑客网站大全"
+            },
+            {
+                "name": "Google",
+                "icon": "https://www.google.com/favicon.ico",
+                "url": "https://www.google.com/",
+                "describe": "全球最大的学习分享平台"
+            },
+            {
+                "name": "Microsoft",
+                "icon": "https://www.microsoft.com/favicon.ico",
+                "url": "https://www.microsoft.com/",
+                "describe": "Microsoft——AI、云、生产力、计算、游戏和应用"
+            },
+            {
+                "name": "Github",
+                "icon": "https://github.com/favicon.ico",
+                "url": "https://www.github.com/",
+                "describe": "基于web的版本控制和协作平台"           
+            },
+            {
+                "name": "Gitee",
+                "icon": "https://gitee.com/favicon.ico",
+                "url": "https://gitee.com/",
+                "describe": "Gitee.com（码云） 是 OSCHINA.NET 推出的代码托管平台，支持 Git 和 SVN，提供免费的私有仓库托管。目前已有超过 1350万的开发者选择 Gitee。"
+            },
+            {
+                "name": "VS Code",
+                "icon": "https://code.visualstudio.com/favicon.ico",
+                "url": "https://code.visualstudio.com/",
+                "describe": "Visual Studio Code免费且基于开源构建。集成Git、调试和扩展。"                              
+            },
+            {
+                "name": "Java",
+                "icon": "https://www.java.com/favicon.ico",
+                "url": "https://www.java.com/",
+                "describe": "Java Oracle Java 是第一大编程语言和开发平台。 它有助于企业降低成本、缩短开发周期、推动创新以及改善应用程序服务。 Java 现在仍是企业和开发人员的首选开发平台。"
+            },
+            {
+                "name": "标准 C++",
+                "icon": "https://isocpp.org/favicon.ico",
+                "url": "https://isocpp.org/",
+                "describe": "关于标准C++的新闻、状态与讨论 关注所有帖子 所有帖子 RSS 标准C++在网络上的家园——新闻、状态与讨论......"       
+            },
+            {
+                "name": "Python",
+                "icon": "https://Python.org/favicon.ico",
+                "url": "https://www.python.org/",
+                "describe": "Python 是一种功能强大且易于学习的语言，可帮助您快速工作并更有效地集成系统。下载最新版本，阅读……"  
+            },
+            {
+                "name": "PyCharm",
+                "icon": "https://www.jetbrains.com/favicon.ico",
+                "url": "https://www.jetbrains.com/",
+                "describe": "专为 Web、数据和 AI/ML 专业人士打造。 通过 AI 增强的 IDE 体验进行超级加速。" 
+
+            },
+            {
+                "name": "CSDN",
+                "icon": "https://www.csdn.net/favicon.ico",
+                "url": "https://www.csdn.net/",
+                "describe": "CSDN是全球知名中文IT技术交流平台,创建于1999年,包含原创博客、精品问答、职业培训、技术论坛、资源下载等产品服务,提供原创、优质、完整内容的专业IT技术开发社区..."            
+            },
+            {
+                "name": "稀土掘金中国",
+                "icon": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/favicons/apple-touch-icon.png",
+                "url": "https://juejin.cn/",
+                "describe": "掘金是面向全球中文开发者的技术内容分享与交流平台。 我们通过技术文章、沸点、课程、直播等产品和服务，打造一个激发开发者创作灵感，激发创新的环境。"
+            },
+            {
+                "name": "中国大学MOOC",
+                "icon": "https://www.wentianplay.com/index/API/assets/siteIcons/icourse163.png",
+                "url": "https://www.icourse163.org/",
+                "describe": "中国大学MOOC_优质在线课程学习平台"
+            },
+            {
+                "name": "程序员客栈",
+                "icon": "https://www.proginn.com/favicon.ico",
+                "url": "https://www.proginn.com/",
+                "describe": "程序员客栈提供兼职程序员、程序员接私活、开发外包，程序员客栈是最大的程序员兼职平台，优质的程序员兼职网站，这里有 BAT 级兼职程序员。"
+            },
+            {
+                "name": "雷锋网",
+                "icon": "https://www.leiphone.com/favicon.ico",
+                "url": "https://www.leiphone.com/",
+                "describe": "人工智能和智能硬件领域的互联网科技媒体"
+            },
+            {
+                "name": "36kr",
+                "icon": "http://36kr.com/favicon.ico",
+                "url": "http://36kr.com/",
+                "describe": "创业资讯、科技新闻"
+            },
+            {
+                "name": "中国新闻网",
+                "icon": "https://www.chinanews.com.cn/favicon.ico",
+                "url": "https://www.chinanews.com.cn/",
+                "describe": "中国新闻网是中国最大的新闻门户网站，提供时政、理论、财经、国际、社会、大湾区、华人、文娱、体育、教育、法治、健康、生活等各类新闻。"
+            },
+            {
+                "name": "人民网",
+                "icon": "https://www.wentianplay.com/index/API/assets/siteIcons/wap-people.png",
+                "url": "http://www.people.com.cn/",
+                "describe": "人民网，是世界十大报纸之一《人民日报》建设的以新闻为主的大型网上信息发布平台，也是互联网上最大的中文和多语种新闻网站。"
+            },
+            {
+                "name": "央视网",
+                "icon": "https://www.CCTV.com/favicon.ico",
+                "url": "https://www.CCTV.com/",
+                "describe": "CCTV节目官网是中央电视台电视节目官方呈现平台，提供央视24个频道的直播、点播、节目预告等服务，集纳央视所有栏目、电影、电视 …"               
+            }
+        ]
+    }
+}
