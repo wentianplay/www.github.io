@@ -1,359 +1,89 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WenTianPlay 认证系统</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #333;
-        }
-
-        .auth-container {
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            width: 90%;
-            max-width: 500px;
-            padding: 40px;
-            text-align: center;
-            animation: fadeIn 0.8s ease-out;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .logo {
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .status-container {
-            margin: 30px 0;
-            padding: 20px;
-            border-radius: 10px;
-            background: #f8f9fa;
-            min-height: 200px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .loading {
-            display: none;
-        }
-
-        .success, .error {
-            display: none;
-        }
-
-        .spinner {
-            width: 50px;
-            height: 50px;
-            border: 5px solid #e0e0e0;
-            border-top: 5px solid #667eea;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-bottom: 20px;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        .status-icon {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-
-        .success .status-icon {
-            color: #10b981;
-        }
-
-        .error .status-icon {
-            color: #ef4444;
-        }
-
-        .status-message {
-            font-size: 18px;
-            font-weight: 500;
-            margin-bottom: 10px;
-        }
-
-        .status-details {
-            color: #6b7280;
-            font-size: 14px;
-            margin-top: 10px;
-        }
-
-        .countdown {
-            font-size: 14px;
-            color: #667eea;
-            font-weight: 500;
-            margin-top: 20px;
-        }
-
-        .manual-redirect {
-            margin-top: 20px;
-            padding-top: 20px;
-            border-top: 1px solid #e5e7eb;
-        }
-
-        .btn {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            border-radius: 50px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: transform 0.3s, box-shadow 0.3s;
-            text-decoration: none;
-            display: inline-block;
-            margin: 10px 5px;
-        }
-
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
-        }
-
-        .btn-outline {
-            background: white;
-            color: #667eea;
-            border: 2px solid #667eea;
-        }
-
-        .btn-outline:hover {
-            background: #f8f9fa;
-        }
-
-        .footer {
-            margin-top: 30px;
-            font-size: 12px;
-            color: #9ca3af;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>域名认证系统</title>
 </head>
 <body>
-    <div class="auth-container">
-        <div class="logo">WenTianPlay 认证系统</div>
+<script>
+const CONFIGURED_DOMAIN = "api.wentianplay.com";
+const VALIDATION_ENDPOINT = "https://api.wentianplay.com/api/api.json";
+const SUCCESS_REDIRECT = "https://api.wentianplay.com";
+const FAILURE_REDIRECT = "https://www.wentianplay.com";
 
-        <div class="status-container">
-            <div class="loading" id="loading">
-                <div class="spinner"></div>
-                <div class="status-message">正在验证 API 对接...</div>
-                <div class="status-details">正在连接至 api.wentianplay.com</div>
-            </div>
-
-            <div class="success" id="success">
-                <div class="status-icon">✓</div>
-                <div class="status-message">认证成功！</div>
-                <div class="status-details">API 对接验证通过，正在跳转</div>
-                <div class="countdown" id="successCountdown">5秒后自动跳转</div>
-            </div>
-
-            <div class="error" id="error">
-                <div class="status-icon">✗</div>
-                <div class="status-message">认证失败</div>
-                <div class="status-details" id="errorDetails">API 对接验证未通过</div>
-                <div class="countdown" id="errorCountdown">5秒后自动跳转</div>
-            </div>
-        </div>
-
-        <div class="manual-redirect" id="manualRedirect" style="display: none;">
-            <a href="https://api.wentianplay.com" class="btn" id="successBtn">立即访问 API</a>
-            <a href="https://www.WenTianPlay.cn" class="btn btn-outline" id="errorBtn">返回首页</a>
-        </div>
-
-        <div class="footer">
-            © 2024 WenTianPlay 认证系统 | API 对接验证
-        </div>
-    </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const loadingEl = document.getElementById('loading');
-            const successEl = document.getElementById('success');
-            const errorEl = document.getElementById('error');
-            const manualRedirectEl = document.getElementById('manualRedirect');
-            const errorDetailsEl = document.getElementById('errorDetails');
-            const successCountdownEl = document.getElementById('successCountdown');
-            const errorCountdownEl = document.getElementById('errorCountdown');
-            const successBtn = document.getElementById('successBtn');
-            const errorBtn = document.getElementById('errorBtn');
-
-            let countdown = 5;
-            let countdownInterval;
-
-            // 显示加载状态
-            loadingEl.style.display = 'flex';
-
-            // API 验证函数
-            async function verifyApi() {
-                try {
-                    // 添加时间戳防止缓存
-                    const apiUrl = 'https://api.wentianplay.com/api/api.json?' + new Date().getTime();
-
-                    // 使用 fetch API 获取数据
-                    const response = await fetch(apiUrl, {
-                        method: 'GET',
-                        headers: {
-                            'Accept': 'application/json',
-                            'Cache-Control': 'no-cache'
-                        },
-                        mode: 'cors', // 尝试跨域请求
-                        credentials: 'omit'
-                    });
-
-                    if (!response.ok) {
-                        throw new Error(`HTTP 错误: ${response.status}`);
-                    }
-
-                    const data = await response.json();
-
-                    // 将响应转换为字符串，检查是否包含目标域名
-                    const jsonString = JSON.stringify(data);
-
-                    if (jsonString.includes('api.wentianplay.com')) {
-                        return true;
-                    } else {
-                        errorDetailsEl.textContent = 'API 响应中未找到 api.wentianplay.com';
-                        return false;
-                    }
-
-                } catch (error) {
-                    console.error('API 验证错误:', error);
-
-                    // 尝试使用 JSONP 方式（如果 API 支持）
-                    try {
-                        const result = await jsonpRequest('https://api.wentianplay.com/api/api.json');
-                        if (result && JSON.stringify(result).includes('api.wentianplay.com')) {
-                            return true;
-                        }
-                        errorDetailsEl.textContent = 'API 响应中未找到 api.wentianplay.com';
-                        return false;
-                    } catch (jsonpError) {
-                        console.error('JSONP 也失败:', jsonpError);
-                        errorDetailsEl.textContent = `无法连接到 API: ${error.message}`;
-                        return false;
-                    }
-                }
-            }
-
-            // JSONP 请求函数（备选方案）
-            function jsonpRequest(url) {
-                return new Promise((resolve, reject) => {
-                    const callbackName = 'jsonp_callback_' + Math.round(100000 * Math.random());
-                    const script = document.createElement('script');
-
-                    window[callbackName] = function(data) {
-                        delete window[callbackName];
-                        document.body.removeChild(script);
-                        resolve(data);
-                    };
-
-                    script.src = url + (url.indexOf('?') >= 0 ? '&' : '?') + 'callback=' + callbackName;
-                    script.onerror = function() {
-                        delete window[callbackName];
-                        document.body.removeChild(script);
-                        reject(new Error('JSONP 请求失败'));
-                    };
-
-                    document.body.appendChild(script);
-
-                    // 设置超时
-                    setTimeout(() => {
-                        if (window[callbackName]) {
-                            delete window[callbackName];
-                            document.body.removeChild(script);
-                            reject(new Error('JSONP 请求超时'));
-                        }
-                    }, 10000);
-                });
-            }
-
-            // 开始倒计时
-            function startCountdown(isSuccess) {
-                const countdownEl = isSuccess ? successCountdownEl : errorCountdownEl;
-
-                countdownInterval = setInterval(() => {
-                    countdown--;
-                    countdownEl.textContent = `${countdown}秒后自动跳转`;
-
-                    if (countdown <= 0) {
-                        clearInterval(countdownInterval);
-                        if (isSuccess) {
-                            window.location.href = 'https://api.wentianplay.com';
-                        } else {
-                            window.location.href = 'https://www.WenTianPlay.cn';
-                        }
-                    }
-                }, 1000);
-            }
-
-            // 显示结果
-            function showResult(isSuccess) {
-                loadingEl.style.display = 'none';
-
-                if (isSuccess) {
-                    successEl.style.display = 'block';
-                    startCountdown(true);
-                } else {
-                    errorEl.style.display = 'block';
-                    startCountdown(false);
-                }
-
-                // 3秒后显示手动跳转按钮
-                setTimeout(() => {
-                    manualRedirectEl.style.display = 'block';
-                }, 3000);
-            }
-
-            // 开始验证
-            verifyApi().then(isValid => {
-                showResult(isValid);
-            }).catch(error => {
-                console.error('验证过程出错:', error);
-                errorDetailsEl.textContent = '验证过程发生错误: ' + error.message;
-                showResult(false);
-            });
-
-            // 手动跳转按钮事件
-            successBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                clearInterval(countdownInterval);
-                window.location.href = 'https://api.wentianplay.com';
-            });
-
-            errorBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                clearInterval(countdownInterval);
-                window.location.href = 'https://www.WenTianPlay.cn';
-            });
+function performDomainAuthentication() {
+    const currentHostname = window.location.hostname;
+    
+    if (currentHostname !== CONFIGURED_DOMAIN) {
+        window.location.href = FAILURE_REDIRECT;
+        return;
+    }
+    
+    fetch(VALIDATION_ENDPOINT, {
+        method: 'GET',
+        mode: 'cors',
+        cache: 'no-cache',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-Domain-Verification': 'true'
+        },
+        redirect: 'error'
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('网络响应异常');
+        }
+        return response.json();
+    })
+    .then(validationData => {
+        const authorizedDomains = validationData.authorized_domains;
+        const securityLevel = validationData.security_level;
+        
+        if (!Array.isArray(authorizedDomains)) {
+            window.location.href = FAILURE_REDIRECT;
+            return;
+        }
+        
+        if (securityLevel !== "government_grade") {
+            window.location.href = FAILURE_REDIRECT;
+            return;
+        }
+        
+        const isDomainAuthorized = authorizedDomains.some(domain => {
+            return domain === currentHostname;
         });
-    </script>
+        
+        if (isDomainAuthorized) {
+            const verificationTimestamp = new Date(validationData.verification_timestamp);
+            const currentTime = new Date();
+            const timeDifference = Math.abs(currentTime - verificationTimestamp);
+            
+            if (timeDifference > 86400000) {
+                window.location.href = FAILURE_REDIRECT;
+                return;
+            }
+            
+            window.location.href = SUCCESS_REDIRECT;
+        } else {
+            window.location.href = FAILURE_REDIRECT;
+        }
+    })
+    .catch(error => {
+        window.location.href = FAILURE_REDIRECT;
+    });
+}
+
+window.addEventListener('DOMContentLoaded', performDomainAuthentication);
+window.addEventListener('load', function() {
+    setTimeout(() => {
+        if (window.location.href.indexOf(SUCCESS_REDIRECT) === -1 && 
+            window.location.href.indexOf(FAILURE_REDIRECT) === -1) {
+            window.location.href = FAILURE_REDIRECT;
+        }
+    }, 5000);
+});
+</script>
 </body>
 </html>
