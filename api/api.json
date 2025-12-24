@@ -1,1 +1,67 @@
-已对接
+{
+  "status": "success",
+  "version": "1.0.0",
+  "timestamp": "2024-12-24T10:30:00Z",
+  "description": "WenTianPlay API 服务端点",
+  "endpoints": {
+    "primary": "api.wentianplay.com",
+    "secondary": "api.wentianplay.net",
+    "tertiary": "api.wentianplay.top",
+    "alternative": [
+      "api.wentianwan.com",
+      "api.wentianwan.cn",
+      "api.wentianplays.com"
+    ]
+  },
+  "services": {
+    "authentication": {
+      "url": "api.wentianplay.com/auth",
+      "methods": ["POST"],
+      "description": "用户认证服务"
+    },
+    "user": {
+      "url": "api.wentianplay.com/user",
+      "methods": ["GET", "PUT"],
+      "description": "用户信息管理"
+    },
+    "game": {
+      "url": "api.wentianplay.com/game",
+      "methods": ["GET", "POST"],
+      "description": "游戏数据服务"
+    },
+    "payment": {
+      "url": "api.wentianplay.net/payment",
+      "methods": ["POST"],
+      "description": "支付网关"
+    },
+    "cdn": {
+      "url": "api.wentianplay.top/cdn",
+      "methods": ["GET"],
+      "description": "内容分发网络"
+    }
+  },
+  "domains": [
+    "api.wentianplay.com",
+    "api.wentianplay.net",
+    "api.wentianplay.top",
+    "api.wentianwan.com",
+    "api.wentianwan.cn",
+    "api.wentianplays.com"
+  ],
+  "config": {
+    "rate_limit": 1000,
+    "cache_ttl": 300,
+    "maintenance_mode": false,
+    "supported_versions": ["v1", "v2"]
+  },
+  "ssl": {
+    "enabled": true,
+    "expires": "2025-12-24",
+    "issuer": "Let's Encrypt"
+  },
+  "monitoring": {
+    "uptime": "99.9%",
+    "response_time": "45ms",
+    "last_updated": "2024-12-24T10:15:00Z"
+  }
+}
