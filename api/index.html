@@ -4,20 +4,40 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>域名认证系统</title>
+<title>WenTianPlay Server</title>
 </head>
 <body>
 <script>
 const CONFIGURED_DOMAIN = "api.wentianplay.com";
 const VALIDATION_ENDPOINT = "https://api.wentianplay.com/api/api.json";
 const SUCCESS_REDIRECT = "https://api.wentianplay.com";
-const FAILURE_REDIRECT = "https://www.wentianplay.com";
+const FAILURE_REDIRECT = "https://www.wentianplay.cn";
+const FAILURE_DELAY = 8000; 
+
+function show404Page() {
+    document.body.innerHTML = `
+        <center><h1>404 Not Found</h1></center>
+        <hr><center>nginx/1.16.1</center>
+        <!-- a padding to disable MSIE and Chrome friendly error page -->
+        <!-- a padding to disable MSIE and Chrome friendly error page -->
+        <!-- a padding to disable MSIE and Chrome friendly error page -->
+        <!-- a padding to disable MSIE and Chrome friendly error page -->
+        <!-- a padding to disable MSIE and Chrome friendly error page -->
+        <!-- a padding to disable MSIE and Chrome friendly error page -->
+    `;
+    document.title = "404 Not Found";
+    
+    
+    setTimeout(() => {
+        window.location.href = FAILURE_REDIRECT;
+    }, FAILURE_DELAY);
+}
 
 function performDomainAuthentication() {
     const currentHostname = window.location.hostname;
     
     if (currentHostname !== CONFIGURED_DOMAIN) {
-        window.location.href = FAILURE_REDIRECT;
+        show404Page();
         return;
     }
     
@@ -33,7 +53,8 @@ function performDomainAuthentication() {
     })
     .then(response => {
         if (!response.ok) {
-            throw new Error('网络响应异常');
+            show404Page();
+            return Promise.reject('网络响应异常');
         }
         return response.json();
     })
@@ -41,13 +62,8 @@ function performDomainAuthentication() {
         const authorizedDomains = validationData.authorized_domains;
         const securityLevel = validationData.security_level;
         
-        if (!Array.isArray(authorizedDomains)) {
-            window.location.href = FAILURE_REDIRECT;
-            return;
-        }
-        
-        if (securityLevel !== "government_grade") {
-            window.location.href = FAILURE_REDIRECT;
+        if (!Array.isArray(authorizedDomains) || securityLevel !== "government_grade") {
+            show404Page();
             return;
         }
         
@@ -61,29 +77,22 @@ function performDomainAuthentication() {
             const timeDifference = Math.abs(currentTime - verificationTimestamp);
             
             if (timeDifference > 86400000) {
-                window.location.href = FAILURE_REDIRECT;
+                show404Page();
                 return;
             }
             
+           
             window.location.href = SUCCESS_REDIRECT;
         } else {
-            window.location.href = FAILURE_REDIRECT;
+            show404Page();
         }
     })
     .catch(error => {
-        window.location.href = FAILURE_REDIRECT;
+        show404Page();
     });
 }
 
 window.addEventListener('DOMContentLoaded', performDomainAuthentication);
-window.addEventListener('load', function() {
-    setTimeout(() => {
-        if (window.location.href.indexOf(SUCCESS_REDIRECT) === -1 && 
-            window.location.href.indexOf(FAILURE_REDIRECT) === -1) {
-            window.location.href = FAILURE_REDIRECT;
-        }
-    }, 5000);
-});
 </script>
 </body>
 </html>
