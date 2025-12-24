@@ -38,6 +38,81 @@
       "url": "api.wentianplay.top/cdn",
       "methods": ["GET"],
       "description": "内容分发网络"
+    },
+    "analytics": {
+      "url": "api.wentianwan.com/analytics",
+      "methods": ["GET", "POST"],
+      "description": "数据分析服务"
+    },
+    "notification": {
+      "url": "api.wentianwan.cn/notify",
+      "methods": ["POST", "DELETE"],
+      "description": "消息推送服务"
+    },
+    "leaderboard": {
+      "url": "api.wentianplays.com/leaderboard",
+      "methods": ["GET"],
+      "description": "排行榜数据服务"
+    },
+    "inventory": {
+      "url": "api.wentianplay.com/inventory",
+      "methods": ["GET", "POST", "PUT"],
+      "description": "用户物品管理"
+    },
+    "matchmaking": {
+      "url": "api.wentianplay.net/match",
+      "methods": ["POST"],
+      "description": "游戏匹配服务"
+    },
+    "social": {
+      "url": "api.wentianplay.top/social",
+      "methods": ["GET", "POST", "DELETE"],
+      "description": "社交功能服务"
+    },
+    "achievement": {
+      "url": "api.wentianwan.com/achievement",
+      "methods": ["GET", "POST"],
+      "description": "成就系统服务"
+    },
+    "friends": {
+      "url": "api.wentianwan.cn/friends",
+      "methods": ["GET", "POST", "DELETE"],
+      "description": "好友管理系统"
+    },
+    "guild": {
+      "url": "api.wentianplays.com/guild",
+      "methods": ["GET", "POST", "PUT"],
+      "description": "公会管理服务"
+    },
+    "trade": {
+      "url": "api.wentianplay.com/trade",
+      "methods": ["POST"],
+      "description": "交易市场服务"
+    },
+    "chat": {
+      "url": "api.wentianplay.net/chat",
+      "methods": ["GET", "POST", "DELETE"],
+      "description": "实时聊天服务"
+    },
+    "replay": {
+      "url": "api.wentianplay.top/replay",
+      "methods": ["GET", "POST"],
+      "description": "游戏录像服务"
+    },
+    "report": {
+      "url": "api.wentianwan.com/report",
+      "methods": ["POST"],
+      "description": "举报反馈系统"
+    },
+    "support": {
+      "url": "api.wentianwan.cn/support",
+      "methods": ["GET", "POST"],
+      "description": "客服支持系统"
+    },
+    "config": {
+      "url": "api.wentianplays.com/config",
+      "methods": ["GET"],
+      "description": "游戏配置管理"
     }
   },
   "domains": [
@@ -52,16 +127,88 @@
     "rate_limit": 1000,
     "cache_ttl": 300,
     "maintenance_mode": false,
-    "supported_versions": ["v1", "v2"]
+    "supported_versions": ["v1", "v2"],
+    "max_connections": 10000,
+    "timeout": 30000,
+    "retry_attempts": 3,
+    "compression": true,
+    "logging_level": "info",
+    "backup_enabled": true,
+    "load_balancing": "round-robin",
+    "failover_enabled": true
   },
   "ssl": {
     "enabled": true,
     "expires": "2025-12-24",
-    "issuer": "Let's Encrypt"
+    "issuer": "Let's Encrypt",
+    "protocols": ["TLSv1.2", "TLSv1.3"],
+    "ciphers": "ECDHE-RSA-AES128-GCM-SHA256",
+    "hsts_enabled": true,
+    "ocsp_stapling": true
   },
   "monitoring": {
     "uptime": "99.9%",
     "response_time": "45ms",
-    "last_updated": "2024-12-24T10:15:00Z"
+    "last_updated": "2024-12-24T10:15:00Z",
+    "health_check": {
+      "interval": 60,
+      "endpoints": ["api.wentianplay.com/health", "api.wentianplay.net/health", "api.wentianplay.top/health"],
+      "alerts_enabled": true
+    },
+    "metrics": {
+      "requests_per_second": 1500,
+      "error_rate": "0.05%",
+      "bandwidth_usage": "2.5GB",
+      "active_users": 85000
+    },
+    "alerting": {
+      "email": "alerts@wentianplay.com",
+      "webhook": "https://monitor.wentianplay.com/alerts",
+      "thresholds": {
+        "response_time": 1000,
+        "error_rate": 1,
+        "cpu_usage": 85
+      }
+    }
+  },
+  "security": {
+    "authentication_methods": ["jwt", "oauth2", "api_key"],
+    "encryption": "AES-256-GCM",
+    "ip_whitelisting": false,
+    "rate_limiting_strategy": "token_bucket",
+    "cors_origins": ["https://wentianplay.com", "https://wentianplay.cn"],
+    "audit_logging": true,
+    "data_retention_days": 365,
+    "compliance": ["GDPR", "CCPA"]
+  },
+  "performance": {
+    "cache_strategy": "redis_cluster",
+    "database_replication": true,
+    "cdn_integration": true,
+    "load_balancers": ["nginx", "haproxy"],
+    "database_sharding": true,
+    "async_processing": true,
+    "connection_pooling": true
+  },
+  "backup": {
+    "schedule": "daily",
+    "retention": 30,
+    "locations": ["aws_s3", "backblaze"],
+    "encrypted": true,
+    "verification": true
+  },
+  "scaling": {
+    "auto_scaling": true,
+    "min_instances": 3,
+    "max_instances": 50,
+    "scale_up_threshold": 70,
+    "scale_down_threshold": 30,
+    "regions": ["us-east-1", "eu-west-1", "ap-east-1"]
+  },
+  "documentation": {
+    "openapi_spec": "https://api.wentianplay.com/docs/openapi.json",
+    "sdk_libraries": ["javascript", "python", "java", "csharp"],
+    "api_explorer": "https://api.wentianplay.com/explorer",
+    "changelog": "https://api.wentianplay.com/changelog"
   }
 }
