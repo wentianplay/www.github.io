@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "motto": "跑步进马年，元旦迎新年",
-  "backgroundImage": "https://picsum.photos/1920/1080?random=2026",
+  "backgroundImage": "https://img-api.moeblock.com/api.php",
   "programs": [
     {
       "title": "唱歌《你》",
