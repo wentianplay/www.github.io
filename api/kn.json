@@ -1,6 +1,19 @@
 {
-  "dataUrl": "https://api.wentianplay.com/api/kn.json",
-  "version": "1.0",
-  "lastUpdated": "2025-01-01",
-  "description": "元旦晚会配置文件 - 配置远程数据源2025～2027"
+  "year": 2026,
+  "motto": "跑步进马年，元旦迎新年",
+  "backgroundImage": "https://picsum.photos/1920/1080?random=2026",
+  "programs": [
+    {
+      "title": "开场歌舞《璀璨新时代》",
+      "description": "百人歌舞团震撼开场，展现新时代中国的繁荣与活力。",
+      "time": "20:00-20:15",
+      "image": "https://picsum.photos/600/400?random=1"
+    },
+    {
+      "title": "交响乐《黄河颂》",
+      "description": "国家交响乐团倾情演奏，展现中华民族的磅礴气势。",
+      "time": "20:15-20:35",
+      "image": "https://picsum.photos/600/400?random=2"
+    }
+  ]
 }
