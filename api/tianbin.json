@@ -7,15 +7,15 @@
       },
       {
         "name": "魔力体系",
-        description: "以太能量流动规律，元素相生相克法则"
+        "description": "以太能量流动规律，元素相生相克法则"
       },
       {
         "name": "种族文明",
-        description: "七大智慧种族的历史文化与科技树发展"
+        "description": "七大智慧种族的历史文化与科技树发展"
       },
       {
         "name": "地理志",
-        description: "三大陆、七海洋、天空浮岛与地下深渊"
+        "description": "三大陆、七海洋、天空浮岛与地下深渊"
       }
     ]
   },
@@ -27,15 +27,15 @@
       },
       {
         "name": "职业体系",
-        description: "战士、法师、射手、刺客、辅助、坦克六大职业"
+        "description": "战士、法师、射手、刺客、辅助、坦克六大职业"
       },
       {
         "name": "稀有度",
-        description: "N、R、SR、SSR、UR五级稀有度评价"
+        "description": "N、R、SR、SSR、UR五级稀有度评价"
       },
       {
         "name": "阵营归属",
-        description: "联盟、帝国、教会、商会、学院五大阵营"
+        "description": "联盟、帝国、教会、商会、学院五大阵营"
       }
     ]
   }
