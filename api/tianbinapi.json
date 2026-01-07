@@ -4,39 +4,39 @@
   "navigation": [
     {
       "id": "nav-home",
-      "name": "首页",
-      "url": "#",
+      "name": "官网",
+      "url": "https://www.tianbin.net",
       "active": true
     },
     {
       "id": "nav-about",
-      "name": "关于",
-      "url": "#about"
+      "name": "框架",
+      "url": "https://m.tianbin.net"
     },
     {
       "id": "nav-characters",
-      "name": "角色",
-      "url": "#characters"
+      "name": "定价",
+      "url": "https://dj.tianbin.net"
     },
     {
       "id": "nav-world",
       "name": "世界",
-      "url": "#world"
+      "url": "https://intl.tianbin.net"
     },
     {
       "id": "nav-download",
-      "name": "下载",
-      "url": "#download"
+      "name": "天彬",
+      "url": "https://su.tianbin.net"
     },
     {
       "id": "nav-news",
-      "name": "动态",
-      "url": "#news"
+      "name": "国服",
+      "url": "https://cn.tianbin.net"
     }
   ],
   "hero": {
     "title": "跨越次元的奇幻冒险",
-    "subtitle": "在艾瑟拉大陆书写你的传奇，结识各具特色的伙伴，探索未知的奥秘，揭开世界的真相。",
+    "subtitle": "在天彬大陆书写你的传奇，结识各具特色的伙伴，探索未知的奥秘，揭开世界的真相。",
     "ctaText": "开始冒险",
     "ctaAction": "download",
     "backgroundImage": "https://api.wentianplay.com/images/hero-bg.jpg"
@@ -49,7 +49,7 @@
     "updates": "近期更新"
   },
   "downloadSection": {
-    "description": "加入数百万玩家的冒险行列，体验沉浸式二次元世界，现在下载即可获得专属新手礼包！"
+    "description": "加入探险者行列，体验沉浸式二次元世界，现在下载即可获得专属新手礼包！"
   },
   "downloadLinks": [
     {
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "copyright": "© 2026 文天玩WenTianPlay. 保留所有权利. 本游戏是起点《天彬》同人小说改编。"
+  "copyright": "© 2026 文天玩WenTianPlay. 保留所有权利. 《天彬TianBIN》游戏是起点《天彬》同人小说改编。"
 }
