@@ -1,5 +1,5 @@
 {
-  "siteTitle": "天彬TianBIN API官网",
+  "siteTitle": "天彬TianBIN API官方网站",
   "siteLogo": "https://www.wentianplay.net/images/logo.png",
   "navigation": [
     {
@@ -27,11 +27,6 @@
       "id": "nav-download",
       "name": "天彬",
       "url": "https://su.tianbin.net"
-    },
-    {
-      "id": "nav-news",
-      "name": "国服",
-      "url": "https://cn.tianbin.net"
     }
   ],
   "hero": {
