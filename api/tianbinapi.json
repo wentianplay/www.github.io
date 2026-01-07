@@ -1,52 +1,159 @@
 {
-  "game": {
-    "title": "天彬TianBIN：幻想交织",
-    "description": "在一个被遗忘的时空裂缝中，古老文明与未来科技相互交织。探索无尽的幻想世界，结识各色伙伴，揭开隐藏在多元宇宙背后的终极秘密。",
-    "stats": {
-      "players": "2,847,931",
-      "characters": "186",
-      "worlds": "27"
+  "siteTitle": "幻境之旅：星之契约",
+  "siteLogo": "https://api.wentianplay.com/images/logo.png",
+  "navigation": [
+    {
+      "id": "nav-home",
+      "name": "首页",
+      "url": "#",
+      "active": true
+    },
+    {
+      "id": "nav-about",
+      "name": "关于游戏",
+      "url": "#about"
+    },
+    {
+      "id": "nav-characters",
+      "name": "角色图鉴",
+      "url": "#characters"
+    },
+    {
+      "id": "nav-world",
+      "name": "世界观",
+      "url": "#world"
+    },
+    {
+      "id": "nav-download",
+      "name": "下载游戏",
+      "url": "#download"
+    },
+    {
+      "id": "nav-news",
+      "name": "最新动态",
+      "url": "#news"
     }
+  ],
+  "hero": {
+    "title": "跨越次元的奇幻冒险",
+    "subtitle": "在艾瑟拉大陆书写你的传奇，结识各具特色的伙伴，探索未知的奥秘，揭开世界的真相。",
+    "ctaText": "开始冒险",
+    "ctaAction": "download",
+    "backgroundImage": "https://api.wentianplay.com/images/hero-bg.jpg"
   },
-  "images": {
-    "hero": [
-      "https://api.wentianplay.com/images/hero1.png",
-      "https://api.wentianplay.com/images/hero2.png",
-      "https://api.wentianplay.com/images/hero3.png"
+  "sectionTitles": {
+    "announcements": "最新公告",
+    "characters": "角色介绍",
+    "world": "世界观设定",
+    "download": "立即下载",
+    "updates": "近期更新"
+  },
+  "downloadSection": {
+    "description": "加入数百万玩家的冒险行列，体验沉浸式二次元世界，现在下载即可获得专属新手礼包！"
+  },
+  "downloadLinks": [
+    {
+      "platform": "Windows",
+      "icon": "💻",
+      "text": "Windows版下载",
+      "url": "https://api.wentianplay.com/download/windows"
+    },
+    {
+      "platform": "Android",
+      "icon": "📱",
+      "text": "Android版下载",
+      "url": "https://api.wentianplay.com/download/android"
+    },
+    {
+      "platform": "iOS",
+      "icon": "📱",
+      "text": "iOS版下载",
+      "url": "https://api.wentianplay.com/download/ios"
+    }
+  ],
+  "footerTitles": {
+    "about": "关于我们",
+    "support": "支持",
+    "community": "社区",
+    "legal": "法律"
+  },
+  "footerLinks": {
+    "about": [
+      {
+        "name": "开发团队",
+        "url": "https://api.wentianplay.com/about/team"
+      },
+      {
+        "name": "游戏特色",
+        "url": "https://api.wentianplay.com/about/features"
+      },
+      {
+        "name": "版本历史",
+        "url": "https://api.wentianplay.com/about/versions"
+      },
+      {
+        "name": "加入我们",
+        "url": "https://api.wentianplay.com/about/careers"
+      }
     ],
-    "backgrounds": {
-      "home": "https://api.wentianplay.com/images/bg_home.jpg",
-      "announcement": "https://api.wentianplay.com/images/bg_announce.jpg",
-      "world": "https://api.wentianplay.com/images/bg_world.jpg"
-    }
-  },
-  "download": {
-    "description": "立即下载《天彬TianBIN：幻想交织》，开启你的二次元冒险之旅！",
-    "platforms": [
+    "support": [
       {
-        "name": "Windows PC",
-        "icon": "fab fa-windows",
-        "size": "18.4 GB",
-        "version": "v1.2.0",
-        "url": "https://download.wentianplay.com/tianbin_setup.exe"
+        "name": "帮助中心",
+        "url": "https://api.wentianplay.com/support/help"
       },
       {
-        "name": "macOS",
-        "icon": "fab fa-apple",
-        "size": "20.1 GB",
-        "version": "v1.2.0",
-        "url": "https://download.wentianplay.com/tianbin_mac.dmg"
+        "name": "客服中心",
+        "url": "https://api.wentianplay.com/support/contact"
       },
       {
-        "name": "Android",
-        "icon": "fab fa-android",
-        "size": "4.2 GB",
-        "version": "v1.2.0",
-        "url": "https://download.wentianplay.com/tianbin_android.apk"
+        "name": "常见问题",
+        "url": "https://api.wentianplay.com/support/faq"
+      },
+      {
+        "name": "问题反馈",
+        "url": "https://api.wentianplay.com/support/feedback"
+      }
+    ],
+    "community": [
+      {
+        "name": "官方论坛",
+        "url": "https://api.wentianplay.com/community/forum",
+        "newTab": true
+      },
+      {
+        "name": "玩家社区",
+        "url": "https://api.wentianplay.com/community/players",
+        "newTab": true
+      },
+      {
+        "name": "Discord",
+        "url": "https://api.wentianplay.com/community/discord",
+        "newTab": true
+      },
+      {
+        "name": "官方微博",
+        "url": "https://api.wentianplay.com/community/weibo",
+        "newTab": true
+      }
+    ],
+    "legal": [
+      {
+        "name": "用户协议",
+        "url": "https://api.wentianplay.com/legal/terms"
+      },
+      {
+        "name": "隐私政策",
+        "url": "https://api.wentianplay.com/legal/privacy"
+      },
+      {
+        "name": "家长监护",
+        "url": "https://api.wentianplay.com/legal/parents"
+      },
+      {
+        "name": "防沉迷说明",
+        "url": "https://api.wentianplay.com/legal/addiction"
       }
     ]
   },
-  "footer": {
-    "copyright": "© 2025 天彬TianBIN Project. 版权所有。幻想交织，创造无限可能。"
-  }
+  "copyright": "© 2026 天彬游戏工作室. 保留所有权利. 本游戏纯属虚构，与真实人物、事件、团体无关。"
 }
