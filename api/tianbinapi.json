@@ -1,1 +1,52 @@
-定价
+{
+  "game": {
+    "title": "天彬TianBIN：幻想交织",
+    "description": "在一个被遗忘的时空裂缝中，古老文明与未来科技相互交织。探索无尽的幻想世界，结识各色伙伴，揭开隐藏在多元宇宙背后的终极秘密。",
+    "stats": {
+      "players": "2,847,931",
+      "characters": "186",
+      "worlds": "27"
+    }
+  },
+  "images": {
+    "hero": [
+      "https://api.wentianplay.com/images/hero1.png",
+      "https://api.wentianplay.com/images/hero2.png",
+      "https://api.wentianplay.com/images/hero3.png"
+    ],
+    "backgrounds": {
+      "home": "https://api.wentianplay.com/images/bg_home.jpg",
+      "announcement": "https://api.wentianplay.com/images/bg_announce.jpg",
+      "world": "https://api.wentianplay.com/images/bg_world.jpg"
+    }
+  },
+  "download": {
+    "description": "立即下载《天彬TianBIN：幻想交织》，开启你的二次元冒险之旅！",
+    "platforms": [
+      {
+        "name": "Windows PC",
+        "icon": "fab fa-windows",
+        "size": "18.4 GB",
+        "version": "v1.2.0",
+        "url": "https://download.wentianplay.com/tianbin_setup.exe"
+      },
+      {
+        "name": "macOS",
+        "icon": "fab fa-apple",
+        "size": "20.1 GB",
+        "version": "v1.2.0",
+        "url": "https://download.wentianplay.com/tianbin_mac.dmg"
+      },
+      {
+        "name": "Android",
+        "icon": "fab fa-android",
+        "size": "4.2 GB",
+        "version": "v1.2.0",
+        "url": "https://download.wentianplay.com/tianbin_android.apk"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 天彬TianBIN Project. 版权所有。幻想交织，创造无限可能。"
+  }
+}
