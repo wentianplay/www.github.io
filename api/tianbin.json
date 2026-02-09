@@ -1,100 +1,154 @@
 {
-  "characters": [
+  "siteTitle": "天彬TianBIN | API官网",
+  "siteLogo": "https://www.wentianplay.net/images/logo.png",
+  "navigation": [
     {
-      "id": 1,
-      "name": "星野羽",
-      "type": "SSR·法师",
-      "brief": "掌控星辰之力的神秘少女，来自遥远的星空彼方。",
-      "description": "星野羽是来自星辰界的旅行者，拥有操控星辰之力的能力。她性格温和但内心坚强，为了寻找失散的妹妹而踏上了旅程。在战斗中，她能够召唤流星攻击敌人，并使用星光治愈队友。",
-      "abilities": "星辰陨落、星光治愈、星河护盾",
-      "backstory": "在星辰界被混沌吞噬的那天，星野羽与妹妹失散。她带着妹妹留下的星之吊坠，穿越无数世界寻找妹妹的踪迹，最终来到了这个大陆。"
+      "id": "nav-home",
+      "name": "官网",
+      "url": "https://www.tianbin.net",
+      "active": true
     },
     {
-      "id": 2,
-      "name": "赤焰龙姬",
-      "type": "SSR·战士",
-      "brief": "龙族与人类的混血，掌控着毁天灭地的火焰之力。",
-      "description": "赤焰龙姬拥有龙族的血脉和人类的智慧，能够自由操控火焰。她性格豪爽直接，战斗中总是冲锋在前，用炙热的龙息焚烧一切敌人。",
-      "abilities": "龙息喷吐、烈焰斩、龙鳞护体",
-      "backstory": "作为龙族与人类禁忌之恋的产物，赤焰龙姬从小在两个种族间挣扎。最终她选择离开族群，寻找属于自己的道路。"
+      "id": "nav-about",
+      "name": "框架",
+      "url": "https://m.tianbin.net"
     },
     {
-      "id": 3,
-      "name": "幻影刺客",
-      "type": "SR·刺客",
-      "brief": "暗影中的猎手，以极致的速度与精准的刺杀闻名。",
-      "description": "幻影刺客是暗影工会的王牌成员，擅长隐匿身形和致命一击。她行动如风，往往在敌人察觉之前就已结束战斗。",
-      "abilities": "影袭、致命连击、暗影步",
-      "backstory": "从小在暗影工会长大的幻影刺客，不知道自己的父母是谁。她唯一知道的就是如何完成任务，直到遇到了改变她命运的那些人。"
+      "id": "nav-characters",
+      "name": "定价",
+      "url": "https://dj.tianbin.net"
     },
     {
-      "id": 4,
-      "name": "圣光祭司",
-      "type": "SR·治疗",
-      "brief": "光明神殿的祭司，用神圣的力量治愈伤痛、驱散黑暗。",
-      "description": "圣光祭司是光明神殿最年轻的祭司，却拥有强大的治愈能力。她坚信光明与希望，总是无私地帮助需要帮助的人。",
-      "abilities": "圣光治愈、神圣护盾、净化之光",
-      "backstory": "在瘟疫肆虐的村庄中被光明神殿救下后，圣光祭司就立志成为能够帮助他人的祭司。她通过了严苛的试炼，成为了神殿历史上最年轻的正式祭司。"
+      "id": "nav-world",
+      "name": "世界",
+      "url": "https://intl.tianbin.net"
     },
     {
-      "id": 5,
-      "name": "机械师",
-      "type": "R·辅助",
-      "brief": "天才机械师，能够制造各种机械装置辅助战斗。",
-      "description": "机械师是工程学会的精英，擅长制造各种机械装置。从自爆机器人到治疗无人机，她总能在战斗中提供意想不到的帮助。",
-      "abilities": "机械助手、炮台部署、应急修复",
-      "backstory": "出身于工程师世家，机械师从小就对各种机械装置着迷。她离开家乡，希望用自己的发明帮助更多的人。"
+      "id": "nav-download",
+      "name": "天彬",
+      "url": "https://su.tianbin.net"
     }
   ],
-  "worldSettings": [
+  "hero": {
+    "title": "跨越次元的奇幻冒险",
+    "subtitle": "在天彬大陆书写你的传奇，结识各具特色的伙伴，探索未知的奥秘，揭开世界的真相。",
+    "ctaText": "开始冒险",
+    "ctaAction": "download",
+    "backgroundImage": "https://api.wentianplay.com/images/hero-bg.jpg"
+  },
+  "sectionTitles": {
+    "announcements": "最新公告",
+    "characters": "角色介绍",
+    "world": "世界观设定",
+    "download": "立即下载",
+    "updates": "近期更新"
+  },
+  "downloadSection": {
+    "description": "加入探险者行列，体验沉浸式二次元世界，现在下载即可获得专属新手礼包！"
+  },
+  "downloadLinks": [
     {
-      "id": 1,
-      "name": "艾瑟拉大陆",
-      "category": "世界观",
-      "brief": "剑与魔法的奇幻世界，由多个种族和势力构成。",
-      "description": "艾瑟拉大陆是一个充满魔法与奇迹的世界，由人类、精灵、矮人、兽人等多个种族共同居住。大陆被分为多个王国和领地，每个地区都有独特的文化和历史。数百年前，一场席卷整个大陆的战争改变了世界的格局，而现在，新的动荡正在酝酿。",
-      "details": "主要势力：\n1. 人类联邦 - 由多个人类王国组成的联盟\n2. 精灵王国 - 森林的守护者，擅长自然魔法\n3. 矮人地下城 - 矿产和锻造技术的掌握者\n4. 兽人部落 - 草原上的游牧民族，勇猛善战"
+      "platform": "Windows",
+      "icon": "💻",
+      "text": "Windows版下载",
+      "url": "https://api.wentianplay.com/download/windows"
     },
     {
-      "id": 2,
-      "name": "魔法体系",
-      "category": "设定",
-      "brief": "六种基本魔法元素构成的完整魔法系统。",
-      "description": "艾瑟拉大陆的魔法系统基于六种基本元素：火、水、风、土、光、暗。每种元素都有其独特的特性和应用方式。魔法师通过精神力操控元素，施展各种法术。除了基本元素外，还存在一些稀有魔法，如时间魔法、空间魔法等。",
-      "details": "元素特性：\n- 火：攻击性强，破坏力大\n- 水：变化多端，可攻可守\n- 风：速度极快，灵活多变\n- 土：防御坚固，稳定可靠\n- 光：治愈净化，克制黑暗\n- 暗：诡异莫测，擅长控制"
+      "platform": "Android",
+      "icon": "📱",
+      "text": "Android版下载",
+      "url": "https://api.wentianplay.com/download/android"
     },
     {
-      "id": 3,
-      "name": "历史纪元",
-      "category": "时间线",
-      "brief": "从创世神话到现代的数万年历史。",
-      "description": "艾瑟拉大陆的历史可分为五个纪元：创世纪元、神话纪元、战争纪元、重建纪元和现代纪元。每个纪元都有其标志性事件和人物，共同构成了大陆丰富的历史。",
-      "details": "纪元划分：\n1. 创世纪元 (-10000~-5000)：世界诞生，诸神创造万物\n2. 神话纪元 (-5000~-2000)：诸神行走于世，教导各族文明\n3. 战争纪元 (-2000~-500)：种族战争，大陆格局形成\n4. 重建纪元 (-500~0)：战后重建，国家建立\n5. 现代纪元 (0~现在)：相对和平，但暗流涌动"
-    },
-    {
-      "id": 4,
-      "name": "职业系统",
-      "category": "游戏机制",
-      "brief": "八大基础职业，各有特色，可自由转职进阶。",
-      "description": "玩家可以从八大基础职业中选择一个开始冒险，随着等级提升可以转职为高级职业。每个职业都有独特的技能树和成长路线，玩家可以根据自己的喜好培养角色。",
-      "details": "基础职业：\n1. 战士 - 近战物理输出，高防御\n2. 法师 - 远程魔法输出，控制能力强\n3. 刺客 - 高爆发物理输出，灵活\n4. 牧师 - 治疗辅助，团队核心\n5. 弓箭手 - 远程物理输出，机动性高\n6. 骑士 - 坦克，保护队友\n7. 术士 - 持续魔法输出，召唤宠物\n8. 武僧 - 近战混合输出，控制技能多"
+      "platform": "iOS",
+      "icon": "📱",
+      "text": "iOS版下载",
+      "url": "https://api.wentianplay.com/download/ios"
     }
   ],
-  "factions": [
-    {
-      "id": 1,
-      "name": "光明神殿",
-      "brief": "信仰光明之神的宗教组织，以守护大陆和平为己任。"
-    },
-    {
-      "id": 2,
-      "name": "暗影工会",
-      "brief": "活跃于暗处的刺客与情报组织，行事神秘。"
-    },
-    {
-      "id": 3,
-      "name": "工程学会",
-      "brief": "钻研科技与机械的学者组织，推动着大陆的技术进步。"
-    }
-  ]
+  "footerTitles": {
+    "about": "关于我们",
+    "support": "支持",
+    "community": "社区",
+    "legal": "法律"
+  },
+  "footerLinks": {
+    "about": [
+      {
+        "name": "开发团队",
+        "url": "https://api.wentianplay.com/about/team"
+      },
+      {
+        "name": "游戏特色",
+        "url": "https://api.wentianplay.com/about/features"
+      },
+      {
+        "name": "版本历史",
+        "url": "https://api.wentianplay.com/about/versions"
+      },
+      {
+        "name": "加入我们",
+        "url": "https://api.wentianplay.com/about/careers"
+      }
+    ],
+    "support": [
+      {
+        "name": "帮助中心",
+        "url": "https://api.wentianplay.com/support/help"
+      },
+      {
+        "name": "客服中心",
+        "url": "https://api.wentianplay.com/support/contact"
+      },
+      {
+        "name": "常见问题",
+        "url": "https://api.wentianplay.com/support/faq"
+      },
+      {
+        "name": "问题反馈",
+        "url": "https://api.wentianplay.com/support/feedback"
+      }
+    ],
+    "community": [
+      {
+        "name": "官方论坛",
+        "url": "https://api.wentianplay.com/community/forum",
+        "newTab": true
+      },
+      {
+        "name": "玩家社区",
+        "url": "https://api.wentianplay.com/community/players",
+        "newTab": true
+      },
+      {
+        "name": "Discord",
+        "url": "https://api.wentianplay.com/community/discord",
+        "newTab": true
+      },
+      {
+        "name": "官方微博",
+        "url": "https://api.wentianplay.com/community/weibo",
+        "newTab": true
+      }
+    ],
+    "legal": [
+      {
+        "name": "用户协议",
+        "url": "https://api.wentianplay.com/legal/terms"
+      },
+      {
+        "name": "隐私政策",
+        "url": "https://api.wentianplay.com/legal/privacy"
+      },
+      {
+        "name": "家长监护",
+        "url": "https://api.wentianplay.com/legal/parents"
+      },
+      {
+        "name": "防沉迷说明",
+        "url": "https://api.wentianplay.com/legal/addiction"
+      }
+    ]
+  },
+  "copyright": "© 2026 文天玩WenTianPlay. 保留所有权利. 《天彬TianBIN》游戏是起点《天彬》同人小说改编。"
 }
