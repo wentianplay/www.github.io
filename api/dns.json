@@ -1,9 +1,13 @@
-            startTime('2024-05-03T14:42:49', 'wentianplay.com');
-            startTime('2024-12-14T10:48:50', 'wentianplay.cn');
-            startTime('2024-12-27T15:09:42', 'wentianplay.net');
-            startTime('2025-03-31T15:07:22', 'wentianplay.top');
-            startTime('2025-04-03T15:17:51', 'wentianwan.com');
-            startTime('2025-05-13T10:11:14', 'wentianwan.cn');
-            startTime('2025-08-28T00:00:50', 'tianbin.net');
-            startTime('2025-10-01T08:00:16', 'wentianplays.com');
-            startTime('2026-02-09T08:00:18', 'bintian.net');
+{
+"domains": [
+{"name": "wentianplay.com", "startTime": "2024-05-03T14:42:49+08:00"},
+{"name": "wentianplay.cn", "startTime": "2024-12-14T10:48:50+08:00"},
+{"name": "wentianplay.net", "startTime": "2024-12-27T15:09:42+08:00"},
+{"name": "wentianplay.top", "startTime": "2025-03-31T15:07:22+08:00"},
+{"name": "wentianwan.com", "startTime": "2025-04-03T15:17:51+08:00"},
+{"name": "wentianwan.cn", "startTime": "2025-05-13T10:11:14+08:00"},
+{"name": "tianbin.net", "startTime": "2025-08-28T00:00:50+08:00"},
+{"name": "wentianplays.com", "startTime": "2025-10-01T08:00:16+08:00"},
+{"name": "bintian.net", "startTime": "2026-02-09T08:00:18+08:00"}
+]
+}
