@@ -49,6 +49,12 @@
                 "icon": "https://www.tianbin.net/icon.ico",
                 "url": "https://www.tianbin.net",
                 "describe": "《天彬TianBIN》"
+            },
+            {
+                "name": "《天彬》API官网",
+                "icon": "https://www.tianbin.net/icon.ico",
+                "url": "https://www.bintian.net",
+                "describe": "《天彬TianBIN》"
             }
         ]
     },
@@ -179,12 +185,6 @@
                 "icon": "http://www.wentianplay.com/index/API/assets/siteIcons/mayikt.png",
                 "url": "http://www.mayikt.com/",
                 "describe": "余胜军IT教学网站蚂蚁课堂专注于Java/Python课程：专注年轻人的IT在线教育平台，网站包含：java架构技术教程，微服务架构课程，高并发大流量专题，Redis缓存技术课程等。"
-            },
-            {
-                "name": "黑客网站大全",
-                "icon": "./assets/icon.ico",
-                "url": "https://web-api.wentianplay.net",
-                "describe": "黑客网站大全"
             },
             {
                 "name": "Google",
