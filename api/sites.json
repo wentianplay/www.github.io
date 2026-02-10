@@ -58,15 +58,20 @@
             }
         ]
     },
-    "网媒导航": {
+    "官方网站": {
         "icon": "",
         "data": [
             {
                 "name": "店铺(平台代营)",
                 "icon": "./assets/icon.ico",
-                "url": "https://G.WenTianPlay.com/",
-                "describe": "文天玩WenTian Play店铺―—(平台代营)"
-            },
+                "url": "http://g.wentianplay.com/",
+                "describe": "文天玩WenTian Play店铺-(平台代营)"
+            }
+        ]
+    },
+    "联系我们": {
+        "icon": "",
+        "data": [
             {
                 "name": "邮箱联系(QQ)",
                 "icon": "https://mail.qq.com/favicon.ico",
@@ -96,7 +101,12 @@
                 "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
                 "url": "mailto:wentianplay@Gmail.com",
                 "describe": "苏天彬(苏文飞)-Gmail邮箱"
-            },
+            }
+        ]
+    },
+    "我们频道": {
+        "icon": "",
+        "data": [
             {
                 "name": "KOOK-天彬",
                 "icon": "https://m.kookapp.cn/favicon.ico",
@@ -111,7 +121,7 @@
             }
         ]
     },
-    "常用推荐": {
+    "网站推荐": {
         "icon": "",
         "data": [
             {
