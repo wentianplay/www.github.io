@@ -1,1 +1,23 @@
-.
+{
+  "last_updated": "2026-02-9T23:00:00Z",
+  "prices": [
+    {
+      "country": "美国",
+      "local_currency": "USD",
+      "local_price": 12.71,
+      "cny_price": 89
+    },
+    {
+      "country": "中国",
+      "local_currency": "CNY",
+      "local_price": 65,
+      "cny_price": 65
+    },
+    {
+      "country": "日本",
+      "local_currency": "JPY",
+      "local_price": 2688,
+      "cny_price": 168
+    }
+  ]
+}
