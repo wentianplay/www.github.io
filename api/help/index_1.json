@@ -1,14 +1,14 @@
 [
   {
     "name": "关于我们的游戏",
-    "url": "https://help.tianbin.net/关于我们的游戏/index.html"
+    "url": "./关于我们的游戏.html"
   },
   {
     "name": "关于我们",
-    "url": "https://help.tianbin.net/关于我们/index.html"
+    "url": "./关于我们.html"
   },
   {
     "name": "联系我们",
-    "url": "https://help.tianbin.net/联系我们/index.html"
+    "url": "./联系我们.html"
   }
 ]
