@@ -1,1 +1,809 @@
-正在订阅中……共13条
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>和平共处原则声明</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* 顶部栏 */
+        .header {
+            background-color: #c7000b;
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo {
+            width: 60px;
+            height: 60px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #c7000b;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .site-title h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        
+        .site-title p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .user-actions {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn {
+            padding: 8px 15px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        /* 导航栏 */
+        .navbar {
+            background-color: #9e0000;
+            padding: 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            position: relative;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+        
+        .nav-links a:hover, .nav-links a.active {
+            background-color: #8a0000;
+        }
+        
+        .search-box {
+            display: flex;
+            align-items: center;
+            padding: 5px 0;
+        }
+        
+        .search-box input {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            width: 200px;
+        }
+        
+        .search-box button {
+            padding: 8px 15px;
+            background-color: #e6e6e6;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+        
+        /* 页面内容 */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 30px;
+        }
+        
+        /* 侧边栏 */
+        .sidebar {
+            width: 280px;
+            flex-shrink: 0;
+        }
+        
+        .sidebar-card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+        .sidebar-title {
+            background-color: #c7000b;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+        }
+        
+        .sidebar-content {
+            padding: 15px;
+        }
+        
+        .law-nav {
+            list-style: none;
+        }
+        
+        .law-nav li {
+            border-bottom: 1px solid #eee;
+        }
+        
+        .law-nav li:last-child {
+            border-bottom: none;
+        }
+        
+        .law-nav a {
+            display: block;
+            padding: 12px 10px;
+            color: #333;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .law-nav a:hover {
+            background-color: #f9f9f9;
+            color: #c7000b;
+            padding-left: 15px;
+        }
+        
+        .law-nav a.active {
+            background-color: #fff0f0;
+            color: #c7000b;
+            border-left: 4px solid #c7000b;
+            padding-left: 11px;
+        }
+        
+        .update-info {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        /* 主内容区 */
+        .main-content {
+            flex: 1;
+        }
+        
+        .breadcrumb {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+        }
+        
+        .breadcrumb a {
+            color: #c7000b;
+            text-decoration: none;
+        }
+        
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        
+        .page-title {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+        }
+        
+        .page-title h2 {
+            color: #c7000b;
+            border-left: 5px solid #c7000b;
+            padding-left: 15px;
+            margin-bottom: 10px;
+        }
+        
+        /* 法条内容 */
+        .law-container {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .law-header {
+            border-bottom: 2px solid #c7000b;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .law-header h3 {
+            color: #c7000b;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .law-meta {
+            display: flex;
+            gap: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .law-item {
+            margin-bottom: 35px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .law-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .law-item-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .law-number {
+            background-color: #c7000b;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 18px;
+            flex-shrink: 0;
+            margin-right: 15px;
+        }
+        
+        .law-title {
+            font-size: 20px;
+            color: #333;
+        }
+        
+        .law-content {
+            margin-left: 55px;
+        }
+        
+        .law-text {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        
+        .law-explanation {
+            background-color: #f9f9f9;
+            border-left: 4px solid #c7000b;
+            padding: 15px;
+            margin: 15px 0;
+            font-size: 15px;
+            color: #555;
+        }
+        
+        .law-example {
+            background-color: #fff8f8;
+            border: 1px solid #ffdddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        
+        .example-title {
+            color: #c7000b;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        /* 页脚 */
+        .footer {
+            background-color: #333;
+            color: #ccc;
+            padding: 40px 0 20px;
+            margin-top: 50px;
+        }
+        
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-section h4 {
+            color: white;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section li {
+            margin-bottom: 8px;
+        }
+        
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: white;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid #444;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .footer-legal {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 992px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+            }
+            
+            .nav-container {
+                flex-direction: column;
+            }
+            
+            .nav-links {
+                flex-wrap: wrap;
+            }
+            
+            .search-box {
+                margin-top: 10px;
+                width: 100%;
+            }
+            
+            .search-box input {
+                flex: 1;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+            
+            .law-meta {
+                flex-direction: column;
+                gap: 5px;
+            }
+            
+            .law-item-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .law-content {
+                margin-left: 0;
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-area">
+                <div class="site-title">
+                    <h1>和平共处原则声明</h1>
+                    <p>Declaration on the Principles of Peaceful Coexistence</p>
+                </div>
+            </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-card">
+                <div class="sidebar-title">
+                    <i class="fas fa-list-ol"></i> 声明目录
+                </div>
+                <div class="sidebar-content">
+                    <ul class="law-nav">
+                        <li><a href="#law1" class="active">第一条 红线范围</a></li>
+                        <li><a href="#law2">第二条 基本原则</a></li>
+                        <li><a href="#law3">第三条 政治立场</a></li>
+                        <li><a href="#law4">第四条 互相尊重</a></li>
+                        <li><a href="#law5">第五条 互不侵犯</a></li>
+                        <li><a href="#law6">第六条 和平共处</a></li>
+                        <li><a href="#law7">第七条 承认对错</a></li>
+                        <li><a href="#law8">第八条 人民万岁</a></li>
+                        <li><a href="#law9">第九条 了解个人</a></li>
+                        <li><a href="#law10">第十条 了解性格</a></li>
+                        <li><a href="#law11">第十一条 了解喜好</a></li>
+                        <li><a href="#law12">第十二条 了解项目</a></li>
+                        <li><a href="#law13">第十三条 了解文天玩</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="sidebar-card">
+                <div class="sidebar-title">
+                    <i class="fas fa-info-circle"></i> 更新信息
+                </div>
+                <div class="sidebar-content">
+                    <div class="update-info">
+                        <p><strong>发布日期：</strong>2026年3月3日</p>
+                        <p><strong>生效日期：</strong>2026年3月3日</p>
+                        <p><strong>发布人：</strong>李文飞</p>
+                    </div>
+                </div>
+            </div>
+        
+        <main class="main-content">       
+                <div id="law1" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">一</div>
+                        <div class="law-title">第一条 红线范围</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">为了规范行政法规的制定、修改、解释和废止程序，保障法规的合法性、科学性和民主性，提高行政法规质量，根据《中华人民共和国立法法》、《中华人民共和国国务院组织法》等法律，制定本条例。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条明确了本条例的立法目的和依据。立法目的是"规范行政法规的制定、修改、解释和废止程序"，核心价值是"保障法规的合法性、科学性和民主性，提高行政法规质量"。立法依据包括《中华人民共和国立法法》和《中华人民共和国国务院组织法》等上位法。</p>
+                        </div>
+                        <div class="law-example">
+                            <div class="example-title">示例：</div>
+                            <p>例如，国务院在制定《食品安全法实施条例》时，必须依据本条例规定的程序进行立项、起草、征求意见、审查、决定和公布，确保该实施条例符合《食品安全法》的立法精神，同时程序合法、内容科学、过程民主。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="law2" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">二</div>
+                        <div class="law-title">第二条 基本原则</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">本条例适用于国务院根据宪法和法律，就下列事项制定的行政法规的制定、修改、解释和废止活动：（一）为执行法律的规定需要制定行政法规的事项；（二）宪法第八十九条规定的国务院行政管理职权的事项。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条界定了本条例的适用范围。行政法规的制定主体是国务院，制定依据是宪法和法律，制定事项包括两类：一是为执行法律的规定需要制定行政法规的事项；二是宪法第八十九条规定的国务院行政管理职权的事项。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="law3" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">三</div>
+                        <div class="law-title">第三条 政治立场</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">行政法规的制定、修改、解释和废止，应当遵循下列原则：（一）坚持中国共产党的领导，贯彻落实党的路线方针政策；（二）符合宪法和法律的规定，维护社会主义法制的统一和尊严；（三）坚持以人民为中心，保障和改善民生；（四）坚持科学立法、民主立法、依法立法；（五）坚持从实际出发，适应经济社会发展需要。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条规定了行政法规活动应当遵循的五项基本原则。这些原则体现了中国特色社会主义法治的基本要求，包括政治原则（坚持党的领导）、合法性原则（符合宪法和法律）、人民性原则（以人民为中心）、立法方法论原则（科学立法、民主立法、依法立法）和现实主义原则（从实际出发）。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="law4" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">四</div>
+                        <div class="law-title">第四条 互相尊重</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">国务院法制机构负责行政法规的组织起草、审查、协调、监督等工作。国务院各部门、地方各级人民政府应当配合国务院法制机构做好相关工作。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条规定了行政法规的管理机构及其职责。国务院法制机构（即司法部）是行政法规工作的主管机构，负责行政法规的组织起草、审查、协调和监督。国务院各部门和地方各级人民政府负有配合职责。</p>
+                        </div>
+                        <div class="law-example">
+                            <div class="example-title">示例：</div>
+                            <p>在制定《企业信息公示暂行条例》过程中，司法部负责组织市场监管总局等部门起草条例草案，对草案进行合法性审查，协调各部门不同意见，并对条例实施情况进行监督。市场监管总局等相关部门配合提供专业意见和材料。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="law5" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">五</div>
+                        <div class="law-title">第五条 互不侵犯</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">公民、法人或者其他组织认为行政法规同宪法或者法律相抵触的，可以向全国人民代表大会常务委员会书面提出进行审查的建议。在行政法规制定过程中，公民、法人或者其他组织可以通过法定渠道提出意见和建议。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条规定了行政相对人在行政法规制定和实施过程中的权利。包括两个方面：一是事后监督权，认为行政法规违宪或违法时可以向全国人大常委会提出审查建议；二是事前参与权，在行政法规制定过程中可以通过法定渠道提出意见和建议。</p>
+                        </div>
+                    </div>
+                </div>
+                        
+                <div id="law6" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">六</div>
+                        <div class="law-title">第六条 和平共处</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">公民、法人或者其他组织认为行政法规同宪法或者法律相抵触的，可以向全国人民代表大会常务委员会书面提出进行审查的建议。在行政法规制定过程中，公民、法人或者其他组织可以通过法定渠道提出意见和建议。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条规定了行政相对人在行政法规制定和实施过程中的权利。包括两个方面：一是事后监督权，认为行政法规违宪或违法时可以向全国人大常委会提出审查建议；二是事前参与权，在行政法规制定过程中可以通过法定渠道提出意见和建议。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="law7" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">七</div>
+                        <div class="law-title">第七条 承认对错</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">公民、法人或者其他组织认为行政法规同宪法或者法律相抵触的，可以向全国人民代表大会常务委员会书面提出进行审查的建议。在行政法规制定过程中，公民、法人或者其他组织可以通过法定渠道提出意见和建议。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条规定了行政相对人在行政法规制定和实施过程中的权利。包括两个方面：一是事后监督权，认为行政法规违宪或违法时可以向全国人大常委会提出审查建议；二是事前参与权，在行政法规制定过程中可以通过法定渠道提出意见和建议。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="law8" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">八</div>
+                        <div class="law-title">第八条 人民万岁</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">公民、法人或者其他组织认为行政法规同宪法或者法律相抵触的，可以向全国人民代表大会常务委员会书面提出进行审查的建议。在行政法规制定过程中，公民、法人或者其他组织可以通过法定渠道提出意见和建议。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条规定了行政相对人在行政法规制定和实施过程中的权利。包括两个方面：一是事后监督权，认为行政法规违宪或违法时可以向全国人大常委会提出审查建议；二是事前参与权，在行政法规制定过程中可以通过法定渠道提出意见和建议。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="law9" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">九</div>
+                        <div class="law-title">第九条 了解个人</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">公民、法人或者其他组织认为行政法规同宪法或者法律相抵触的，可以向全国人民代表大会常务委员会书面提出进行审查的建议。在行政法规制定过程中，公民、法人或者其他组织可以通过法定渠道提出意见和建议。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条规定了行政相对人在行政法规制定和实施过程中的权利。包括两个方面：一是事后监督权，认为行政法规违宪或违法时可以向全国人大常委会提出审查建议；二是事前参与权，在行政法规制定过程中可以通过法定渠道提出意见和建议。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="law10" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">十</div>
+                        <div class="law-title">第十条 了解性格</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">公民、法人或者其他组织认为行政法规同宪法或者法律相抵触的，可以向全国人民代表大会常务委员会书面提出进行审查的建议。在行政法规制定过程中，公民、法人或者其他组织可以通过法定渠道提出意见和建议。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条规定了行政相对人在行政法规制定和实施过程中的权利。包括两个方面：一是事后监督权，认为行政法规违宪或违法时可以向全国人大常委会提出审查建议；二是事前参与权，在行政法规制定过程中可以通过法定渠道提出意见和建议。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="law11" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">十一</div>
+                        <div class="law-title">第十一条 了解喜好</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">公民、法人或者其他组织认为行政法规同宪法或者法律相抵触的，可以向全国人民代表大会常务委员会书面提出进行审查的建议。在行政法规制定过程中，公民、法人或者其他组织可以通过法定渠道提出意见和建议。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条规定了行政相对人在行政法规制定和实施过程中的权利。包括两个方面：一是事后监督权，认为行政法规违宪或违法时可以向全国人大常委会提出审查建议；二是事前参与权，在行政法规制定过程中可以通过法定渠道提出意见和建议。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="law12" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">十二</div>
+                        <div class="law-title">第十二条 了解项目</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">公民、法人或者其他组织认为行政法规同宪法或者法律相抵触的，可以向全国人民代表大会常务委员会书面提出进行审查的建议。在行政法规制定过程中，公民、法人或者其他组织可以通过法定渠道提出意见和建议。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条规定了行政相对人在行政法规制定和实施过程中的权利。包括两个方面：一是事后监督权，认为行政法规违宪或违法时可以向全国人大常委会提出审查建议；二是事前参与权，在行政法规制定过程中可以通过法定渠道提出意见和建议。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="law13" class="law-item">
+                    <div class="law-item-header">
+                        <div class="law-number">十三</div>
+                        <div class="law-title">第十三条 了解文天玩</div>
+                    </div>
+                    <div class="law-content">
+                        <p class="law-text">公民、法人或者其他组织认为行政法规同宪法或者法律相抵触的，可以向全国人民代表大会常务委员会书面提出进行审查的建议。在行政法规制定过程中，公民、法人或者其他组织可以通过法定渠道提出意见和建议。</p>
+                        <div class="law-explanation">
+                            <p><strong>【条文解读】</strong>本条规定了行政相对人在行政法规制定和实施过程中的权利。包括两个方面：一是事后监督权，认为行政法规违宪或违法时可以向全国人大常委会提出审查建议；二是事前参与权，在行政法规制定过程中可以通过法定渠道提出意见和建议。</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; color: #666;">
+                    <p><i class="fas fa-file-signature"></i> 本声明自2026年3月3日起施行。 发布人：李文飞</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h4>网站导航</h4>
+                    <ul>
+                        <li><a href="https://www.gov.cn">政府网</a></li>
+                        <li><a href="https://www.court.gov.cn">最高法</a></li>
+                        <li><a href="https://www.spp.gov.cn">最高检</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>法规查询</h4>
+                    <ul>
+                        <li><a href="https://www.ccdi.gov.cn/">国家监委</a></li>
+                        <li><a href="https://www.court.gov.cn">最高法</a></li>
+                        <li><a href="https://www.spp.gov.cn">最高检</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>相关服务</h4>
+                    <ul>
+                        <li><a href="https://www.gov.cn">政府网</a></li>
+                       <li><a href="大https://www.npc.gov.cn">人大网</a></li>
+                       <li><a href="http://www.cppcc.gov.cn/">政协网</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> 邮箱：info@wentianplay.top</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>和平共处原则声明 © 2026年3月3日</p>
+                <div class="footer-legal">
+                    <a href="https∶//official.wentianplay.com">发布人：李文飞</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+     
+        document.addEventListener('DOMContentLoaded', function() {
+         
+            const navLinks = document.querySelectorAll('.law-nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                
+                    navLinks.forEach(item => item.classList.remove('active'));
+                 
+                    this.classList.add('active');
+                    
+                
+                    const targetId = this.getAttribute('href');
+                    if (targetId.startsWith('#')) {
+                        e.preventDefault();
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 100,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                });
+            });
+            
+           
+            const searchBtn = document.querySelector('.search-box button');
+            const searchInput = document.querySelector('.search-box input');
+            
+            searchBtn.addEventListener('click', function() {
+                const searchTerm = searchInput.value.trim();
+                if (searchTerm) {
+                    alert(`正在搜索："${searchTerm}"\n实际网站中将跳转到搜索结果页面。`);
+            
+                } else {
+                    alert('请输入搜索关键词');
+                }
+            });
+            
+          
+            searchInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    searchBtn.click();
+                }
+            });
+            
+           
+            const printBtn = document.querySelector('.btn[style*="background-color: #c7000b"]');
+            if (printBtn) {
+                printBtn.addEventListener('click', function() {
+                    window.print();
+                });
+            }
+            
+          
+            const actionBtns = document.querySelectorAll('.main-content .btn:not([style*="background-color: #c7000b"])');
+            actionBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const btnText = this.textContent.trim();
+                    alert(`"${btnText}"功能\n实际网站中将执行相应操作。`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
