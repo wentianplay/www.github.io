@@ -17,8 +17,8 @@
     "name": "黄天瑞",
     "birthDate": "2009-02-22",
     "blessing": "黄天瑞同志，生日快乐！",
-    "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "displayProbability": 2.1111,
+    "drawProbability": 2.1111
   },
   {
     "name": "曹徐博",
@@ -45,8 +45,8 @@
     "name": "郑朴桐",
     "birthDate": "2008-07-12",
     "blessing": "郑朴桐同志，生日快乐！",
-    "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "displayProbability": 2.3333,
+    "drawProbability": 2.3333
   },
   {
     "name": "方喆豪",
@@ -59,15 +59,15 @@
     "name": "傅天明",
     "birthDate": "2009-01-17",
     "blessing": "傅天明同志，生日快乐！",
-    "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "displayProbability": 2.3333,
+    "drawProbability": 2.3333
   },
   {
     "name": "付泽菡",
     "birthDate": "2009-12-11",
     "blessing": "付泽菡同志，生日快乐！",
     "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "drawProbability": 2.3222
   },
   {
     "name": "郭旭晖",
@@ -81,7 +81,7 @@
     "birthDate": "2009-07-04",
     "blessing": "黄乐然同志，生日快乐！",
     "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "drawProbability": 2.3222
   },
   {
     "name": "黄子扬",
@@ -108,15 +108,15 @@
     "name": "李文飞",
     "birthDate": "2008-02-29",
     "blessing": "李文飞同志，生日快乐！",
-    "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "displayProbability": 2.0000,
+    "drawProbability": 1.0000
   },
   {
     "name": "梁子俊",
     "birthDate": "2009-07-05",
     "blessing": "梁子俊同志，生日快乐！",
     "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "drawProbability": 2.4222
   },
   {
     "name": "刘文凇",
@@ -137,7 +137,7 @@
     "birthDate": "2009-09-15",
     "blessing": "马天同志，生日快乐！",
     "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "drawProbability": 2.3222
   },
   {
     "name": "潘宇菲",
@@ -165,7 +165,7 @@
     "birthDate": "2010-01-31",
     "blessing": "孙瑞同志，生日快乐！",
     "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "drawProbability": 2.3222
   },
   {
     "name": "万佳琦",
@@ -207,7 +207,7 @@
     "birthDate": "2009-05-16",
     "blessing": "文俊轩同志，生日快乐！",
     "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "drawProbability": 2.3222
   },
   {
     "name": "吴宇鹏",
@@ -235,7 +235,7 @@
     "birthDate": "2009-01-15",
     "blessing": "肖奥辉同志，生日快乐！",
     "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "drawProbability": 2.3222
   },
   {
     "name": "肖超勇",
@@ -262,15 +262,15 @@
     "name": "徐钦锋",
     "birthDate": "2009-02-06",
     "blessing": "徐钦锋同志，生日快乐！",
-    "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "displayProbability": 2.3333,
+    "drawProbability": 2.3333
   },
   {
     "name": "杨高俊",
     "birthDate": "2009-10-15",
     "blessing": "杨高俊同志，生日快乐！",
     "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "drawProbability": 2.3222
   },
   {
     "name": "杨佳轩",
@@ -298,6 +298,6 @@
     "birthDate": "2009-03-21",
     "blessing": "周子恒同志，生日快乐！",
     "displayProbability": 2.2222,
-    "drawProbability": 2.2222
+    "drawProbability": 2.3222
   }
 ]
