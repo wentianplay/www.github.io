@@ -1,23 +1,23 @@
 {
-    "copyright": "©文天玩WenTianPlay 版权所有",
+    "copyright": "©2024WenTianPlay",
     "records": [
         "京ICP备2024070889号-1",
         "国新出审〔2026〕627号",
         "ISBN 978-7-498-16556-5"
     ],
     "links": [
-        {"name": "腾讯游戏", "url": "https://game.qq.com"},
-        {"name": "网易游戏", "url": "https://game.163.com"},
-        {"name": "米哈游", "url": "https://www.mihoyo.com"},
-        {"name": "哔哩哔哩游戏", "url": "https://game.bilibili.com"},
-        {"name": "TapTap", "url": "https://www.taptap.com"},
-        {"name": "4399小游戏", "url": "https://www.4399.com"},
-        {"name": "7k7k小游戏", "url": "https://www.7k7k.com"},
-        {"name": "Steam", "url": "https://store.steampowered.com"},
-        {"name": "Epic Games", "url": "https://www.epicgames.com"},
-        {"name": "任天堂", "url": "https://www.nintendo.com"},
-        {"name": "索尼PlayStation", "url": "https://www.playstation.com"},
-        {"name": "Xbox", "url": "https://www.xbox.com"},
-        {"name": "育碧", "url": "https://www.ubisoft.com"}
+        {"name": "文天玩", "url": "http://www.wentianplay.com"},
+        {"name": "团队网站", "url": "http://www.wentianplay.cn"},
+        {"name": "导航网站", "url": "http://www.wentianplay.net"},
+        {"name": "通知公告", "url": "http://www.wentianplay.top"},
+        {"name": "品牌产品", "url": "http://www.wentianwan.com"},
+        {"name": "捐款渠道", "url": "http://www.wentianwam.cn"},
+        {"name": "天彬官网", "url": "http://www.tianbin.net"},
+        {"name": "创始股东", "url": "http://www.wentianplays.com"},
+        {"name": "天彬API", "url": "http://www.bintian.net"},
+        {"name": "文天游", "url": "http://www.wentianyo.com"},
+        {"name": "API", "url": "http://www.wentianyo.cn"},
+        {"name": "门户", "url": "http://www.wentianyou.com"},
+        {"name": "期刊", "url": "http://www.wentianyou.cn"}
     ]
 }
