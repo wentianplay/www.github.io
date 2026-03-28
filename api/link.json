@@ -16,8 +16,8 @@
         {"name": "创始股东", "url": "http://www.wentianplays.com"},
         {"name": "天彬API", "url": "http://www.bintian.net"},
         {"name": "文天游", "url": "http://www.wentianyo.com"},
-        {"name": "API", "url": "http://www.wentianyo.cn"},
-        {"name": "门户", "url": "http://www.wentianyou.com"},
-        {"name": "期刊", "url": "http://www.wentianyou.cn"}
+        {"name": "API端口", "url": "http://www.wentianyo.cn"},
+        {"name": "门户网站", "url": "http://www.wentianyou.com"},
+        {"name": "社区期刊", "url": "http://www.wentianyou.cn"}
     ]
 }
