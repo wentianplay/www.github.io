@@ -1,20 +1,20 @@
 {
     "copyright": "Copyright © 2024 WenTianPlay  京ICP备2024070889号-1",
     "records": [
-        "出版物号:国新出审〔2026〕627号",
-        "标准书号:ISBN 978-7-498-16556-5"
+        "国新出审 〔2026〕 627号",
+        "ISBN 978-7-498-16556-5"
     ],
     "links": [
         {"name": "文天玩官方网站", "url": "http://www.wentianplay.com"},
         {"name": "团队网站", "url": "http://www.wentianplay.cn"},
         {"name": "导航网站", "url": "http://www.wentianplay.net"},
-        {"name": "通知公告", "url": "http://www.wentianplay.top"},
-        {"name": "品牌产品", "url": "http://www.wentianwan.com"},
+        {"name": "通知公告栏", "url": "http://www.wentianplay.top"},
+        {"name": "品牌产品栏", "url": "http://www.wentianwan.com"},
         {"name": "捐款渠道", "url": "http://www.wentianwan.cn"},
         {"name": "天彬官方网站", "url": "http://www.tianbin.net"},
         {"name": "创始股东", "url": "http://www.wentianplays.com"},
         {"name": "天彬API", "url": "http://www.bintian.net"},
-        {"name": "文天游官网", "url": "http://www.wentianyo.com"},
+        {"name": "文天游官方网站", "url": "http://www.wentianyo.com"},
         {"name": "应用程序端口", "url": "http://www.wentianyo.cn"},
         {"name": "门户网站", "url": "http://www.wentianyou.com"},
         {"name": "社区期刊", "url": "http://www.wentianyou.cn"}
