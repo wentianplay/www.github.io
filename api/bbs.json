@@ -1,0 +1,21 @@
+{
+  "siteInfo": {
+    "title": "天彬学术期刊网",
+    "favicon": "favicon.ico",
+    "backgroundImage": "background.jpg"
+  },
+  "categories": [
+    {
+      "name": "优秀",
+      "dataUrl": "http://api.wentianplay.com/api/bbs_a.json"
+    },
+    {
+      "name": "站长",
+      "dataUrl": "http://api.wentianplay.com/api/bbs_b.json"
+    },
+    {
+      "name": "http://api.wentianplay.com/api/笔友",
+      "dataUrl": "bbs_c.json"
+    }
+  ]
+}
