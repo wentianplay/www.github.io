@@ -6,16 +6,16 @@
   },
   "categories": [
     {
-      "name": "要闻",
-      "dataUrl": "top_a.json"
+      "name": "通知",
+      "dataUrl": "http://api.wentianplay.com/api/top_a.json"
     },
     {
-      "name": "动态",
-      "dataUrl": "top_b.json"
+      "name": "公告",
+      "dataUrl": "http://api.wentianplay.com/api/top_b.json"
     },
     {
-      "name": "拍案",
-      "dataUrl": "top_c.json"
+      "name": "新闻",
+      "dataUrl": "http://api.wentianplay.com/api/top_c.json"
     }
   ]
 }
