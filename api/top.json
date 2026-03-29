@@ -5,15 +5,15 @@
   "sections": [
     {
       "name": "公告",
-      "dataUrl": "http://api.wentianplay.com/api/top_a.json"
+      "dataUrl": "https://api.wentianplay.com/api/top_a.json"
     },
     {
       "name": "通知",
-      "dataUrl": "http://api.wentianplay.com/api/top_b.json"
+      "dataUrl": "https://api.wentianplay.com/api/top_b.json"
     },
     {
       "name": "新闻",
-      "dataUrl": "http://api.wentianplay.com/api/top_c.json"
+      "dataUrl": "https://api.wentianplay.com/api/top_c.json"
     }
   ]
 }
