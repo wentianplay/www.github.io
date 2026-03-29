@@ -1,14 +1,23 @@
-[
-  {
-    "name": "探险者【主控】",
-    "url": "../bintian/探险者.html"
-  },
-  {
-    "name": "关于我们",
-    "url": "../bintian/关于我们.html"
-  },
-  {
-    "name": "联系我们",
-    "url": "../bintian/联系我们.html"
-  }
-]
+{
+  "siteName": "天彬TianBIN | 框架设定",
+  "favicon": "https://example.com/favicon.ico",
+  "backgroundImage": "https://example.com/background.jpg",
+  "sections": [
+    {
+      "name": "框架",
+      "dataUrl": "https://api.wentianplay.com/api/tianbin.json"
+    },
+    {
+      "name": "世界观",
+      "dataUrl": "https://api.wentianplay.com/api/tianbin_a.json"
+    },
+    {
+      "name": "设定",
+      "dataUrl": "https://api.wentianplay.com/api/tianbin_b.json"
+    },
+    {
+      "name": "人物",
+      "dataUrl": "https://api.wentianplay.com/api/tianbin_c.json"
+    }
+  ]
+}
