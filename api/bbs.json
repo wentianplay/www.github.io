@@ -4,15 +4,15 @@
   "backgroundImage": "https://example.com/background.jpg",
   "sections": [
     {
-      "name": "期刊",
+      "name": "期刊论文",
       "dataUrl": "https://api.wentianplay.com/api/bbs_a.json"
     },
     {
-      "name": "笔友",
+      "name": "生活故事",
       "dataUrl": "https://api.wentianplay.com/api/bbs_b.json"
     },
     {
-      "name": "站长",
+      "name": "论证批判",
       "dataUrl": "https://api.wentianplay.com/api/bbs_c.json"
     }
   ]
