@@ -14,8 +14,8 @@
       "dataUrl": "http://api.wentianplay.com/api/bbs_b.json"
     },
     {
-      "name": "http://api.wentianplay.com/api/笔友",
-      "dataUrl": "bbs_c.json"
+      "name": "笔友",
+      "dataUrl": "http://api.wentianplay.com/api/bbs_c.json"
     }
   ]
 }
