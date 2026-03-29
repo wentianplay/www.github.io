@@ -1,3 +1,12 @@
+//5.0.0，返回1.0.0
+ <iframe src="https://link.wentianplays.com/?t=<%= new Date().getTime() %>" 
+  width="100%" 
+   height="128" 
+    frameborder="0" 
+    scrolling="auto"
+   style="border-radius: 8px;"
+  title="文天玩官方域名友链公示">
+ </iframe>
 //4.0.0
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 
