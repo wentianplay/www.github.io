@@ -1,1 +1,21 @@
- 
+{
+  "siteInfo": {
+    "title": "文天玩WenTianPlay | 通知公告栏",
+    "favicon": "favicon.ico",
+    "backgroundImage": "background.jpg"
+  },
+  "categories": [
+    {
+      "name": "要闻",
+      "dataUrl": "top_a.json"
+    },
+    {
+      "name": "动态",
+      "dataUrl": "top_b.json"
+    },
+    {
+      "name": "拍案",
+      "dataUrl": "top_c.json"
+    }
+  ]
+}
