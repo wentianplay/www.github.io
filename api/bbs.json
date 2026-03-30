@@ -4,16 +4,28 @@
   "backgroundImage": "https://example.com/background.jpg",
   "sections": [
     {
-      "name": "学术期刊",
+      "name": "优秀学刊",
       "dataUrl": "https://api.wentianplay.com/api/bbs_a.json"
     },
     {
-      "name": "生活随笔",
+      "name": "学术期刊",
       "dataUrl": "https://api.wentianplay.com/api/bbs_b.json"
     },
     {
-      "name": "思辨求真",
+      "name": "文学作品",
       "dataUrl": "https://api.wentianplay.com/api/bbs_c.json"
+    },
+    {
+      "name": "记录生活",
+      "dataUrl": "https://api.wentianplay.com/api/bbs_d.json"
+    },
+    {
+      "name": "思辨求真",
+      "dataUrl": "https://api.wentianplay.com/api/bbs_e.json"
+    },
+    {
+      "name": "天彬文学",
+      "dataUrl": "https://api.wentianplay.com/api/api.json"
     }
   ]
 }
