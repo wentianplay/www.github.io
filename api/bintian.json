@@ -4,20 +4,16 @@
   "backgroundImage": "https://example.com/background.jpg",
   "sections": [
     {
-      "name": "框架",
+      "name": "世界观",
       "dataUrl": "https://api.wentianplay.com/api/tianbin.json"
     },
     {
-      "name": "世界观",
+      "name": "框架",
       "dataUrl": "https://api.wentianplay.com/api/tianbin_a.json"
     },
     {
       "name": "设定",
       "dataUrl": "https://api.wentianplay.com/api/tianbin_b.json"
-    },
-    {
-      "name": "人物",
-      "dataUrl": "https://api.wentianplay.com/api/tianbin_c.json"
     }
   ]
 }
