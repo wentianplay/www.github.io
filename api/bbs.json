@@ -4,7 +4,7 @@
   "backgroundImage": "https://example.com/background.jpg",
   "sections": [
     {
-      "name": "期刊论文",
+      "name": "学术期刊",
       "dataUrl": "https://api.wentianplay.com/api/bbs_a.json"
     },
     {
