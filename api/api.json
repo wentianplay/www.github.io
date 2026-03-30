@@ -1,26 +1,8 @@
-{
-  "authorized_domains": [
-    "api.wentianplay.com",
-    "api.wentianplay.net",
-    "api.wentianplay.top",
-    "api.wentianwan.com",
-    "api.wentianwan.cn",
-    "api.wentianplays.com"
-  ],
-  "verification_timestamp": "2025-12-24T00:00:00Z",
-  "security_level": "government_grade",
-  "certificate_authority": "WENTIAN_GLOBAL_SECURITY",
-  "rotation_interval": 3600,
-  "domain_registry": {
-    "api.wentianplay.com": "PRIMARY_CERTIFICATE_HOLDER",
-    "api.wentianplay.net": "SECONDARY_VALIDATION_NODE",
-    "api.wentianplay.top": "TERTIARY_AUTHENTICATION_SERVER",
-    "api.wentianwan.com": "QUATERNARY_VERIFICATION_POINT",
-    "api.wentianwan.cn": "QUINARY_SECURITY_GATEWAY",
-    "api.wentianplays.com": "SENARY_AUTHORIZATION_CENTER"
-  },
-  "cryptographic_protocols": ["TLS_1.3", "AES_256_GCM", "SHA_384"],
-  "revocation_list": [],
-  "validation_method": "STRICT_DOMAIN_MATCHING",
-  "geographic_distribution": ["ASIA", "EUROPE", "NORTH_AMERICA"]
-}
+[
+  {
+    "title": "关于2026年度学术期刊优秀论文评选的通知",
+    "date": "2026-03-01",
+    "author": "学术期刊编辑部",
+    "content": "  为进一步推动学术研究发展，鼓励学术创新，提高学术论文质量，学术期刊网将开展2026年度优秀论文评选活动。\n\n  本次评选范围包括2020年10月1日至2026年9月30日期间在学术期刊网发表的所有学术论文。评选将遵循公开、公平、公正的原则，由学术期刊网组织专家评审委员会进行评审。\n\n  评选标准主要包括：论文的学术创新性、研究方法科学性、论证逻辑严谨性、学术价值和应用前景等方面。评选结果将于2026年12月底公布，并对获奖论文作者给予相应奖励。\n\n  请各位作者密切关注评选进展，如有疑问请联系学术期刊网编辑部。"
+  }
+]
