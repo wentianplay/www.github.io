@@ -8,7 +8,7 @@
       "dataUrl": "https://api.wentianplay.com/api/top_a.json"
     },
     {
-      "name": "新闻事件",
+      "name": "新闻快讯",
       "dataUrl": "https://api.wentianplay.com/api/top_b.json"
     },
     {
