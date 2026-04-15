@@ -1,10 +1,10 @@
 {
-  "siteName": "文天玩WenTianPlay | 通知公告栏",
-  "favicon": "https://example.com/favicon.ico",
-  "backgroundImage": "https://example.com/background.jpg",
+  "siteName": "猎问奇答",
+  "favicon": "#",
+  "backgroundImage": "#",
   "sections": [
     {
-      "name": "通知公告",
+      "name": "猎问奇答",
       "dataUrl": "https://api.wentianplay.com/api/top-api_top.json"
     }
   ]
