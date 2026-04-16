@@ -1,8 +1,8 @@
 {
   "name": "Nachoneko",
   "description": "",
-  "url": "https://www.wentianplay.cn",
-  "home": "https://www.wentianplay.cn",
+  "url": "https://www.wentianwan.cn",
+  "home": "https://www.wentianwan.cn",
   "gmt_offset": 9,
   "timezone_string": "Asia/Tokyo",
   "page_for_posts": 0,
@@ -19,7 +19,7 @@
   "authentication": {
     "application-passwords": {
       "endpoints": {
-        "authorization": "https://www.wentianplay.cn/wp-admin/authorize-application.php"
+        "authorization": "https://www.wentianwan.cn/wp-admin/authorize-application.php"
       }
     }
   },
@@ -45,7 +45,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/"
+            "href": "https://api.wentianplay.com/api/help/"
           }
         ]
       }
@@ -118,7 +118,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/batch/v1"
+            "href": "https://api.wentianplay.com/api/help/batch/v1"
           }
         ]
       }
@@ -148,7 +148,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/oembed/1.0"
+            "href": "https://api.wentianplay.com/api/help/oembed/1.0"
           }
         ]
       }
@@ -184,7 +184,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/oembed/1.0/embed"
+            "href": "https://api.wentianplay.com/api/help/oembed/1.0/embed"
           }
         ]
       }
@@ -239,7 +239,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/oembed/1.0/proxy"
+            "href": "https://api.wentianplay.com/api/help/oembed/1.0/proxy"
           }
         ]
       }
@@ -269,7 +269,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/contact-form-7/v1"
+            "href": "https://api.wentianplay.com/api/help/contact-form-7/v1"
           }
         ]
       }
@@ -297,7 +297,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/contact-form-7/v1/contact-forms"
+            "href": "https://api.wentianplay.com/api/help/contact-form-7/v1/contact-forms"
           }
         ]
       }
@@ -387,7 +387,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2"
+            "href": "https://api.wentianplay.com/api/help/wp/v2"
           }
         ]
       }
@@ -1031,7 +1031,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/posts"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/posts"
           }
         ]
       }
@@ -2238,7 +2238,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/pages"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/pages"
           }
         ]
       }
@@ -3346,7 +3346,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/media"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/media"
           }
         ]
       }
@@ -4275,7 +4275,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/menu-items"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/menu-items"
           }
         ]
       }
@@ -5120,7 +5120,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/blocks"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/blocks"
           }
         ]
       }
@@ -6250,7 +6250,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/templates"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/templates"
           }
         ]
       }
@@ -6287,7 +6287,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/templates/lookup"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/templates/lookup"
           }
         ]
       }
@@ -6947,7 +6947,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/template-parts"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/template-parts"
           }
         ]
       }
@@ -6984,7 +6984,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/template-parts/lookup"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/template-parts/lookup"
           }
         ]
       }
@@ -7676,7 +7676,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/navigation"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/navigation"
           }
         ]
       }
@@ -8353,7 +8353,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/font-families"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/font-families"
           }
         ]
       }
@@ -9033,7 +9033,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/cpt_works"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/cpt_works"
           }
         ]
       }
@@ -9818,7 +9818,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/cpt_goods"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/cpt_goods"
           }
         ]
       }
@@ -10254,7 +10254,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/cpt_gallery"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/cpt_gallery"
           }
         ]
       }
@@ -10723,7 +10723,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/cpt_produce"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/cpt_produce"
           }
         ]
       }
@@ -11149,7 +11149,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/types"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/types"
           }
         ]
       }
@@ -11213,7 +11213,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/statuses"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/statuses"
           }
         ]
       }
@@ -11282,7 +11282,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/taxonomies"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/taxonomies"
           }
         ]
       }
@@ -11475,7 +11475,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/categories"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/categories"
           }
         ]
       }
@@ -11734,7 +11734,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/tags"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/tags"
           }
         ]
       }
@@ -12001,7 +12001,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/menus"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/menus"
           }
         ]
       }
@@ -12268,7 +12268,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/wp_pattern_category"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/wp_pattern_category"
           }
         ]
       }
@@ -12527,7 +12527,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/tax_goods"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/tax_goods"
           }
         ]
       }
@@ -12791,7 +12791,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/tax_works"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/tax_works"
           }
         ]
       }
@@ -13180,7 +13180,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/users"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/users"
           }
         ]
       }
@@ -13515,7 +13515,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/users/me"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/users/me"
           }
         ]
       }
@@ -13966,7 +13966,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/comments"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/comments"
           }
         ]
       }
@@ -14247,7 +14247,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/search"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/search"
           }
         ]
       }
@@ -14327,7 +14327,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/block-types"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/block-types"
           }
         ]
       }
@@ -14557,7 +14557,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/settings"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/settings"
           }
         ]
       }
@@ -14591,7 +14591,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/themes"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/themes"
           }
         ]
       }
@@ -14685,7 +14685,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/plugins"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/plugins"
           }
         ]
       }
@@ -14810,7 +14810,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/sidebars"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/sidebars"
           }
         ]
       }
@@ -14897,7 +14897,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/widget-types"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/widget-types"
           }
         ]
       }
@@ -15084,7 +15084,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/widgets"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/widgets"
           }
         ]
       }
@@ -15244,7 +15244,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/block-directory/search"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/block-directory/search"
           }
         ]
       }
@@ -15349,7 +15349,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/pattern-directory/patterns"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/pattern-directory/patterns"
           }
         ]
       }
@@ -15370,7 +15370,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/block-patterns/patterns"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/block-patterns/patterns"
           }
         ]
       }
@@ -15391,7 +15391,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/block-patterns/categories"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/block-patterns/categories"
           }
         ]
       }
@@ -15421,7 +15421,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-site-health/v1"
+            "href": "https://api.wentianplay.com/api/help/wp-site-health/v1"
           }
         ]
       }
@@ -15442,7 +15442,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-site-health/v1/tests/background-updates"
+            "href": "https://api.wentianplay.com/api/help/wp-site-health/v1/tests/background-updates"
           }
         ]
       }
@@ -15463,7 +15463,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-site-health/v1/tests/loopback-requests"
+            "href": "https://api.wentianplay.com/api/help/wp-site-health/v1/tests/loopback-requests"
           }
         ]
       }
@@ -15484,7 +15484,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-site-health/v1/tests/https-status"
+            "href": "https://api.wentianplay.com/api/help/wp-site-health/v1/tests/https-status"
           }
         ]
       }
@@ -15505,7 +15505,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-site-health/v1/tests/dotorg-communication"
+            "href": "https://api.wentianplay.com/api/help/wp-site-health/v1/tests/dotorg-communication"
           }
         ]
       }
@@ -15526,7 +15526,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-site-health/v1/tests/authorization-header"
+            "href": "https://api.wentianplay.com/api/help/wp-site-health/v1/tests/authorization-header"
           }
         ]
       }
@@ -15547,7 +15547,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-site-health/v1/directory-sizes"
+            "href": "https://api.wentianplay.com/api/help/wp-site-health/v1/directory-sizes"
           }
         ]
       }
@@ -15568,7 +15568,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-site-health/v1/tests/page-cache"
+            "href": "https://api.wentianplay.com/api/help/wp-site-health/v1/tests/page-cache"
           }
         ]
       }
@@ -15598,7 +15598,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-block-editor/v1"
+            "href": "https://api.wentianplay.com/api/help/wp-block-editor/v1"
           }
         ]
       }
@@ -15626,7 +15626,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-block-editor/v1/url-details"
+            "href": "https://api.wentianplay.com/api/help/wp-block-editor/v1/url-details"
           }
         ]
       }
@@ -15659,7 +15659,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/menu-locations"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/menu-locations"
           }
         ]
       }
@@ -15711,7 +15711,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-block-editor/v1/export"
+            "href": "https://api.wentianplay.com/api/help/wp-block-editor/v1/export"
           }
         ]
       }
@@ -15732,7 +15732,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-block-editor/v1/navigation-fallback"
+            "href": "https://api.wentianplay.com/api/help/wp-block-editor/v1/navigation-fallback"
           }
         ]
       }
@@ -15780,7 +15780,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp/v2/font-collections"
+            "href": "https://api.wentianplay.com/api/help/wp/v2/font-collections"
           }
         ]
       }
@@ -15836,7 +15836,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-abilities/v1"
+            "href": "https://api.wentianplay.com/api/help/wp-abilities/v1"
           }
         ]
       }
@@ -15884,7 +15884,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-abilities/v1/categories"
+            "href": "https://api.wentianplay.com/api/help/wp-abilities/v1/categories"
           }
         ]
       }
@@ -16001,7 +16001,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://www.wentianplay.cn/wp-json/wp-abilities/v1/abilities"
+            "href": "https://api.wentianplay.com/api/help/wp-abilities/v1/abilities"
           }
         ]
       }
