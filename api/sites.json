@@ -1,64 +1,64 @@
 {
-    "权威域名": {
+    "官方网站": {
         "icon": "",
         "data": [
             {
-                "name": "国际官网",
+                "name": "文天玩官网",
                 "icon": "./assets/icon.ico",
                 "url": "https://www.wentianplay.com",
-                "describe": "文天玩WenTianPlay国际站-文天玩网络科技有限公司"
+                "describe": "文天玩WenTianPlay官方网站"
             },
             {
-                "name": "中国官网",
+                "name": "赞助渠道",
                 "icon": "./assets/icon.ico",
                 "url": "https://www.wentianplay.cn",
-                "describe": "文天玩WenTianPlay中国站-文天玩网络科技有限公司"
+                "describe": "文天玩赞助捐款渠道的官方网站"
             },
             {
-                "name": "数据官网",
+                "name": "导航网站",
                 "icon": "./assets/icon.ico",
                 "url": "https://www.wentianplay.net",
-                "describe": "文天玩WenTianPlay数据站-文天玩网络科技有限公司"
-                },
+                "describe": "文天玩WenTianPlay导航网站"
+            },
             {
-                "name": "资讯官网",
+                "name": "公告新闻",
                 "icon": "./assets/icon.ico",
                 "url": "https://www.wentianplay.top",
-                "describe": "文天玩WenTianPlay资讯站(前身论坛站)-文天玩网络科技有限公司"
-                },
+                "describe": "文天玩WenTianPlay公告新闻"
+            },
             {
-                "name": "品牌官网",
+                "name": "品牌网站",
                 "icon": "./assets/icon.ico",
                 "url": "https://www.wentianwan.com",
-                "describe": "文天玩WenTianPlay品牌站-文天玩网络科技有限公司"
-                },
+                "describe": "文天玩WenTianPlay品牌网站"
+            },
             {
-                "name": "团队官网",
+                "name": "产品网站",
                 "icon": "./assets/icon.ico",
                 "url": "https://www.wentianwan.cn",
-                "describe": "文天玩WenTianPlay团队站-文天玩网络科技有限公司"
-                },
+                "describe": "文天玩WenTianPlay产品网站"
+            },
             {
-                "name": "边缘官网",
+                "name": "创始股东",
                 "icon": "./assets/icon.ico",
                 "url": "https://www.wentianplays.com",
-                "describe": "文天玩WenTianPlay边缘站-文天玩网络科技有限公司"
+                "describe": "文天玩WenTianPlay创始股东"
             },
             {
-                "name": "《天彬》官方网站",
+                "name": "《天彬》官网",
                 "icon": "https://www.tianbin.net/icon.ico",
                 "url": "https://www.tianbin.net",
-                "describe": "《天彬TianBIN》"
+                "describe": "《天彬TianBIN》官方网站"
             },
             {
-                "name": "《天彬》API官网",
+                "name": "《天彬》API",
                 "icon": "https://www.tianbin.net/icon.ico",
                 "url": "https://www.bintian.net",
-                "describe": "《天彬TianBIN》"
+                "describe": "《天彬TianBIN》框架设定"
             }
         ]
     },
-    "官方网站": {
+    "联系我们": {
         "icon": "",
         "data": [
             {
@@ -66,12 +66,7 @@
                 "icon": "./assets/icon.ico",
                 "url": "http://g.wentianplay.com/",
                 "describe": "文天玩WenTian Play店铺-(平台代营)"
-            }
-        ]
-    },
-    "联系我们": {
-        "icon": "",
-        "data": [
+            }，
             {
                 "name": "邮箱联系(QQ)",
                 "icon": "https://mail.qq.com/favicon.ico",
@@ -101,27 +96,16 @@
                 "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
                 "url": "mailto:wentianplay@Gmail.com",
                 "describe": "苏天彬(苏文飞)-Gmail邮箱"
-            }
-        ]
-    },
-    "我们频道": {
-        "icon": "",
-        "data": [
-            {
-                "name": "KOOK-天彬",
-                "icon": "https://m.kookapp.cn/favicon.ico",
-                "url": "https://www.kookapp.cn/app/invite/6GcFWj",
-                "describe": "KOOK里有各种主题的服务器，你也可以根据自己的喜好，创造..."
             },
             {
-                "name": "Discord-天彬",
-                "icon": "https://discord.do/favicon.ico",
-                "url": "https://discord.gg/CwJqM27Nb7",
-                "describe": "Discord 是一款通讯工具，可以帮助用户通过文本、语音和视频聊天与社区和朋友保持连接。"   
+                "name": "官方群聊",
+                "icon": "./assets/icon.ico",
+                "url": "https://official.wentianplay.com/index/",
+                "describe": "天彬TianBIN官方网站"
             }
         ]
     },
-    "网站推荐": {
+    "视频平站": {
         "icon": "",
         "data": [
             {
@@ -153,36 +137,17 @@
                 "icon": "https://www.youku.com/favicon.ico",
                 "url": "https://www.youku.com/",
                 "describe": "优酷 - 为好内容全力以赴 - 海量正版高清视频在线观看"
-            },
+            }
+        ]
+    },
+    "互联网": {
+        "icon": "",
+        "data": [
             {
                 "name": "聚名网",
                 "icon": "https://ossjm.oss-accelerate.aliyuncs.com/pub/img/juming_ico.ico",
                 "url": "https://www.juming.com/",
                 "describe": "聚名网-到期域名查询抢注-域名注册-老域名买卖交易平台"
-            },
-            {
-                "name": "Minecraft",
-                "icon": "https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon.ico",
-                "url": "https://www.minecraft.net/",
-                "describe": "在 Minecraft 官方网站上探索新的游戏冒险、配件和商品。 在此处购买并下载游戏，或查看网站以获取最新消息。"
-            },
-            {
-                "name": "PCL II",
-                "icon": "https://pcl2.aoe.top/favicon.ico",
-                "url": "https://pcl2.aoe.top/",
-                "describe": "PCL2（Plain Craft Launcher 2）是由龙腾猫跃开发的免费开源 Minecraft 启动器。支持 Forge、Fabric、模组管理、自动下载、自定义主题等功能。立即下载体验最好用的我 …"                              
-            },
-            {
-                "name": "PCL 社区版",
-                "icon": "https://pclce-web.demo.fis.ink/favicon.ico",
-                "url": "https://pclce-web.demo.fis.ink/",
-                "describe": "PCL2社区版是一个开源免费的Minecraft启动器，支持分享mod、多账号切换和Java版本管理等功能。" 
-            },
-            {
-                "name": "Steam",
-                "icon": "https://store.steampowered.com/favicon.ico",
-                "url": "https://store.steampowered.com/",
-                "describe": "您可以在下方看到多款您可能感兴趣的产品。Steam是游戏、讨论和创造游戏的最终目的地。"
             },
             {
                 "name": "微信文件传输web",
@@ -233,6 +198,12 @@
                 "describe": "Java Oracle Java 是第一大编程语言和开发平台。 它有助于企业降低成本、缩短开发周期、推动创新以及改善应用程序服务。 Java 现在仍是企业和开发人员的首选开发平台。"
             },
             {
+                "name": "JetBrains",
+                "icon": "https://www.jetbrains.com/favicon.ico",
+                "url": "https://www.jetbrains.com/",
+                "describe": "IntelliJ IDEA 是用于 Java 和 Kotlin 专业开发的 JetBrains IDE。它专为您的舒适设计，释放生产力，确保规范质量，支持切割......" 
+            },
+            {
                 "name": "标准 C++",
                 "icon": "https://isocpp.org/favicon.ico",
                 "url": "https://isocpp.org/",
@@ -274,6 +245,48 @@
                 "icon": "https://www.proginn.com/favicon.ico",
                 "url": "https://www.proginn.com/",
                 "describe": "程序员客栈提供兼职程序员、程序员接私活、开发外包，程序员客栈是最大的程序员兼职平台，优质的程序员兼职网站，这里有 BAT 级兼职程序员。"
+             }
+        ]
+    },
+    "游戏网站": {
+        "icon": "",
+        "data": [
+            {
+                "name": "Minecraft",
+                "icon": "https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon.ico",
+                "url": "https://www.minecraft.net/",
+                "describe": "在 Minecraft 官方网站上探索新的游戏冒险、配件和商品。 在此处购买并下载游戏，或查看网站以获取最新消息。"
+            },
+            {
+                "name": "HMCL",
+                "icon": "https://hmcl.huangyuhui.net/favicon.ico",
+                "url": "https://hmcl.huangyuhui.net/",
+                "describe": "Hello Minecraft! Launcher"
+            },
+            {
+                "name": "PCL II",
+                "icon": "https://pcl2.aoe.top/favicon.ico",
+                "url": "https://pcl2.aoe.top/",
+                "describe": "PCL2（Plain Craft Launcher 2）是由龙腾猫跃开发的免费开源 Minecraft 启动器。支持 Forge、Fabric、模组管理、自动下载、自定义主题等功能。立即下载体验最好用的我 …"        
+            },
+            {
+                "name": "PCL 社区版",
+                "icon": "https://pclce-web.demo.fis.ink/favicon.ico",
+                "url": "https://pclce-web.demo.fis.ink/",
+                "describe": "PCL2社区版是一个开源免费的Minecraft启动器，支持分享mod、多账号切换和Java版本管理等功能。" 
+            },
+            {
+                "name": "Steam",
+                "icon": "https://store.steampowered.com/favicon.ico",
+                "url": "https://store.steampowered.com/",
+                "describe": "您可以在下方看到多款您可能感兴趣的产品。Steam是游戏、讨论和创造游戏的最终目的地。"
+             }
+        ]
+    },
+    "学闻期报": {
+        "icon": "",
+        "data": [
+            {
             },
             {
                 "name": "雷锋网",
