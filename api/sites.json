@@ -192,6 +192,12 @@
                 "describe": "IntelliJ IDEA 是用于 Java 和 Kotlin 专业开发的 JetBrains IDE。它专为您的舒适设计，释放生产力，确保规范质量，支持切割......" 
             },
             {
+                "name": "以往的Java版本",
+                "icon": "https://www.oracle.com/favicon.ico",
+                "url": "https://www.oracle.com/java/technologies/downloads/archive/",
+                "describe": "Previous Java releases"
+            },
+            {
                 "name": "标准 C++",
                 "icon": "https://isocpp.org/favicon.ico",
                 "url": "https://isocpp.org/",
