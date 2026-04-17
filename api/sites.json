@@ -150,18 +150,6 @@
                 "describe": "聚名网-到期域名查询抢注-域名注册-老域名买卖交易平台"
             },
             {
-                "name": "微信文件传输web",
-                "icon": "https://filehelper.weixin.qq.com/favicon.ico",
-                "url": "https://filehelper.weixin.qq.com/?from=windows&type=recommend",
-                "describe": "微信文件传输助手网页版"
-            },
-            {
-                "name": "蚂蚁课堂",
-                "icon": "http://www.wentianplay.com/index/API/assets/siteIcons/mayikt.png",
-                "url": "http://www.mayikt.com/",
-                "describe": "余胜军IT教学网站蚂蚁课堂专注于Java/Python课程：专注年轻人的IT在线教育平台，网站包含：java架构技术教程，微服务架构课程，高并发大流量专题，Redis缓存技术课程等。"
-            },
-            {
                 "name": "Google",
                 "icon": "https://www.google.com/favicon.ico",
                 "url": "https://www.google.com/",
@@ -220,7 +208,18 @@
                 "icon": "https://www.jetbrains.com/favicon.ico",
                 "url": "https://www.jetbrains.com/",
                 "describe": "专为 Web、数据和 AI/ML 专业人士打造。 通过 AI 增强的 IDE 体验进行超级加速。" 
-
+            },
+            {
+                "name": "微信文件传输web",
+                "icon": "https://filehelper.weixin.qq.com/favicon.ico",
+                "url": "https://filehelper.weixin.qq.com/?from=windows&type=recommend",
+                "describe": "微信文件传输助手网页版"
+            },
+            {
+                "name": "蚂蚁课堂",
+                "icon": "http://www.wentianplay.com/index/API/assets/siteIcons/mayikt.png",
+                "url": "http://www.mayikt.com/",
+                "describe": "余胜军IT教学网站蚂蚁课堂专注于Java/Python课程：专注年轻人的IT在线教育平台，网站包含：java架构技术教程，微服务架构课程，高并发大流量专题，Redis缓存技术课程等。"
             },
             {
                 "name": "CSDN",
