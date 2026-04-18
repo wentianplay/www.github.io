@@ -349,7 +349,13 @@
                 "name": "PCL II",
                 "icon": "https://pcl2.aoe.top/favicon.ico",
                 "url": "https://pcl2.aoe.top/",
-                "describe": "PCL2（Plain Craft Launcher 2）是由龙腾猫跃开发的免费开源 Minecraft 启动器。支持 Forge、Fabric、模组管理、自动下载、自定义主题等功能。立即下载体验最好用的我 …"        
+                "describe": "PCL2（Plain Craft Launcher 2）是由龙腾猫跃开发的免费开源 Minecraft 启动器。支持 Forge、Fabric、模组管理、自动下载、自定义主题等功能。立即下载体验最好用的我 …"
+            },
+            {
+                "name": "PCL CE",
+                "icon": "https://pclce-web.demo.fis.ink/img/logo.ico",
+                "url": "https://pclce-web.demo.fis.ink/",
+                "describe": "PCL CE基于 PCL2 构建，提供更强大的功能和更好的用户体验 …"        
             },
             {
                 "name": "赤潮：零纪元",
