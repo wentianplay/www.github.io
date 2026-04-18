@@ -280,6 +280,12 @@
                 "icon": "http://official.wentianplay.com/index/API/assets/siteIcons/mayikt.png",
                 "url": "http://www.mayikt.com/",
                 "describe": "余胜军IT教学网站蚂蚁课堂专注于Java/Python课程：专注年轻人的IT在线教育平台，网站包含：java架构技术教程，微服务架构课程，高并发大流量专题，Redis缓存技术课程等。"
+            },
+            {
+                "name": "TRAE AI",
+                "icon": "https://lf16-web-neutral.traecdn.ai/obj/trae-ai-static/trae_website/favicon.png",
+                "url": "https://www.trae.ai/",
+                "describe": "TRAE 是一款由 AI 驱动的代码编辑器，以其友好的界面和响应式功能而脱颖而出。建造者模式能够高效开发......"
              }
         ]
     },
