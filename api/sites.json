@@ -86,6 +86,12 @@
         "icon": "./assets/icon.ico",
         "data": [
             {
+                "name": "官方群聊",
+                "icon": "./assets/icon.ico",
+                "url": "https://official.wentianplay.com/index/",
+                "describe": "天彬TianBIN官方群聊"
+            },
+            {
                 "name": "店铺(平台代营)",
                 "icon": "./assets/icon.ico",
                 "url": "http://g.wentianplay.com/",
@@ -120,12 +126,6 @@
                 "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
                 "url": "mailto:wentianplay@Gmail.com",
                 "describe": "苏天彬(苏文飞)-Gmail邮箱"
-            },
-            {
-                "name": "官方群聊",
-                "icon": "./assets/icon.ico",
-                "url": "https://official.wentianplay.com/index/",
-                "describe": "天彬TianBIN官方网站"
             }
         ]
     },
@@ -145,10 +145,16 @@
                 "describe": "Stay updated with the latest news and trends on …"
             },
             {
-                "name": "爱奇艺",
-                "icon": "https://www.iqiyi.com/favicon.ico",
-                "url": "https://www.iqiyi.com/",
-                "describe": "爱奇艺-在线视频网站-海量正版高清视频在线观看"
+                "name": "抖音",
+                "icon": "https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico",
+                "url": "https://www.douyin.com/",
+                "describe": "抖音让每一个人看见并连接更大的世界，鼓励表达、沟通和记录，激发创造，丰富人们的精神世界，让现实生活更美好。"
+            },
+            {
+                "name": "快手",
+                "icon": "https://www.kuaishou.com/favicon.ico",
+                "url": "https://www.kuaishou.com/",
+                "describe": "快手是一款国民级短视频App。在快手，了解真实的世界，认识有趣的人，也可以记录真实而有趣的自己。快手，拥抱每一种 ..."
             },
             {
                 "name": "腾讯视频",
@@ -246,12 +252,6 @@
                 "describe": "网络就是我们的硬盘!!!"
             },
             {
-                "name": "蚂蚁课堂",
-                "icon": "http://official.wentianplay.com/index/API/assets/siteIcons/mayikt.png",
-                "url": "http://www.mayikt.com/",
-                "describe": "余胜军IT教学网站蚂蚁课堂专注于Java/Python课程：专注年轻人的IT在线教育平台，网站包含：java架构技术教程，微服务架构课程，高并发大流量专题，Redis缓存技术课程等。"
-            },
-            {
                 "name": "CSDN",
                 "icon": "https://www.csdn.net/favicon.ico",
                 "url": "https://www.csdn.net/",
@@ -274,11 +274,17 @@
                 "icon": "https://www.proginn.com/favicon.ico",
                 "url": "https://www.proginn.com/",
                 "describe": "程序员客栈提供兼职程序员、程序员接私活、开发外包，程序员客栈是最大的程序员兼职平台，优质的程序员兼职网站，这里有 BAT 级兼职程序员。"
+            },
+            {
+                "name": "蚂蚁课堂",
+                "icon": "http://official.wentianplay.com/index/API/assets/siteIcons/mayikt.png",
+                "url": "http://www.mayikt.com/",
+                "describe": "余胜军IT教学网站蚂蚁课堂专注于Java/Python课程：专注年轻人的IT在线教育平台，网站包含：java架构技术教程，微服务架构课程，高并发大流量专题，Redis缓存技术课程等。"
              }
         ]
     },
     "游戏网站": {
-        "icon": "https://hmcl.huangyuhui.net/favicon.ico",
+        "icon": "https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon.ico",
         "data": [
             {
                 "name": "Steam",
@@ -305,16 +311,22 @@
                 "describe": "PCL2（Plain Craft Launcher 2）是由龙腾猫跃开发的免费开源 Minecraft 启动器。支持 Forge、Fabric、模组管理、自动下载、自定义主题等功能。立即下载体验最好用的我 …"        
             },
             {
-                "name": "PCL 社区版",
-                "icon": "https://pclce-web.demo.fis.ink/favicon.ico",
-                "url": "https://pclce-web.demo.fis.ink/",
-                "describe": "PCL2社区版是一个开源免费的Minecraft启动器，支持分享mod、多账号切换和Java版本管理等功能。" 
+                "name": "赤潮：零纪元",
+                "icon": "https://www.yomio.cn/favicon.ico",
+                "url": "https://www.yomio.cn/",
+                "describe": "悠喵YoMio官方网站，原创游戏IP《赤潮：零纪元》官网，提供预约信息、世界观设定、最新动态与团队介绍。" 
               }
         ]
     },
-    "学闻期报": {
-        "icon": "https://www.CCTV.com/favicon.ico",
+    "学习强国": {
+        "icon": "https://www.gov.cn/images/newlogo19ysp_lt.png",
         "data": [
+            {
+                "name": "中国政府网",
+                "icon": "https://www.gov.cn/images/newlogo19ysp_lt.png",
+                "url": "https://www.gov.cn/",
+                "describe": "中央人民政府门户网站"
+            },
             {
                 "name": "央视网",
                 "icon": "https://www.CCTV.com/favicon.ico",
