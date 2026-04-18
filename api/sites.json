@@ -204,6 +204,12 @@
                 "describe": "Gitee.com（码云） 是 OSCHINA.NET 推出的代码托管平台，支持 Git 和 SVN，提供免费的私有仓库托管。目前已有超过 1350万的开发者选择 Gitee。"
             },
             {
+                "name": "Cloudflare Status",
+                "icon": "https://official.wentianplay.com/index/API/assets/siteIcons/cloudflare.png",
+                "url": "https://www.cloudflarestatus.com/",
+                "describe": "Cloudflare Status"
+            },
+            {
                 "name": "VS Code",
                 "icon": "https://code.visualstudio.com/favicon.ico",
                 "url": "https://code.visualstudio.com/",
@@ -250,7 +256,12 @@
                 "icon": "https://wentianplay.lanzouu.com/favicon.ico",
                 "url": "https://wentianplay.lanzouu.com/",
                 "describe": "网络就是我们的硬盘!!!"
-            },
+            }
+        ]
+    },
+    "辅助教育": {
+        "icon": "https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon.ico",
+        "data": [
             {
                 "name": "CSDN",
                 "icon": "https://www.csdn.net/favicon.ico",
@@ -282,14 +293,20 @@
                 "describe": "余胜军IT教学网站蚂蚁课堂专注于Java/Python课程：专注年轻人的IT在线教育平台，网站包含：java架构技术教程，微服务架构课程，高并发大流量专题，Redis缓存技术课程等。"
             },
             {
-                "name": "TRAE AI",
+                "name": "TRAE",
                 "icon": "https://lf16-web-neutral.traecdn.ai/obj/trae-ai-static/trae_website/favicon.png",
                 "url": "https://www.trae.ai/",
                 "describe": "TRAE 是一款由 AI 驱动的代码编辑器，以其友好的界面和响应式功能而脱颖而出。建造者模式能够高效开发......"
+            },
+            {
+                "name": "DeepSeek",
+                "icon": "https://official.wentianplay.com/index/API/assets/siteIcons/DeepSeek.ico",
+                "url": "https://www.deepseek.com/",
+                "describe": "DeepSeek, unravel the mystery of AGI with curiosity. Answer the essential question with long-termism. 🎉 DeepSeek-R1 is now live."
              }
         ]
     },
-    "游戏网站": {
+    "游戏娱乐": {
         "icon": "https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon.ico",
         "data": [
             {
