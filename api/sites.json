@@ -259,26 +259,32 @@
             }
         ]
     },
-    "辅助教育": {
-        "icon": "https://www.csdn.net/favicon.ico",
+    "教辅考刷": {
+        "icon": "https://ncre.neea.edu.cn/favicon.ico",
         "data": [
+            {
+                "name": "NCRE",
+                "icon": "https://ncre.neea.edu.cn/favicon.ico",
+                "url": "https://ncre.neea.edu.cn/",
+                "describe": "中国教育考试网:教育部教育考试院于1994年面向社会推出了NCRE，其目的在于以考促学，向社会推广和普及计算机知识，也为用人部门录用和考核工作人员提供一个统一、客观、公正的标准。"            
+            },
             {
                 "name": "CSDN",
                 "icon": "https://www.csdn.net/favicon.ico",
                 "url": "https://www.csdn.net/",
-                "describe": "CSDN是全球知名中文IT技术交流平台,创建于1999年,包含原创博客、精品问答、职业培训、技术论坛、资源下载等产品服务,提供原创、优质、完整内容的专业IT技术开发社区..."            
+                "describe": "CSDN是全球知名中文IT技术交流平台,创建于1999年,包含原创博客、精品问答、职业培训、技术论坛、资源下载等产品服务,提供原创、优质、完整内容的专业IT技术开发社区..."
+            },
+            {
+                "name": "Nssctf",
+                "icon": "https://www.nssctf.cn/favicon.ico",
+                "url": "https://www.nssctf.cn/",
+                "describe": "NSSCTF平台致力于提供开放、自由、共享的在线CTF体验，欢迎每一位热爱网络安全的用户加入。"
             },
             {
                 "name": "稀土掘金中国",
                 "icon": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/favicons/apple-touch-icon.png",
                 "url": "https://juejin.cn/",
                 "describe": "掘金是面向全球中文开发者的技术内容分享与交流平台。 我们通过技术文章、沸点、课程、直播等产品和服务，打造一个激发开发者创作灵感，激发创新的环境。"
-            },
-            {
-                "name": "中国大学MOOC",
-                "icon": "https://official.wentianplay.com/index/API/assets/siteIcons/icourse163.png",
-                "url": "https://www.icourse163.org/",
-                "describe": "中国大学MOOC_优质在线课程学习平台"
             },
             {
                 "name": "程序员客栈",
@@ -291,6 +297,18 @@
                 "icon": "http://official.wentianplay.com/index/API/assets/siteIcons/mayikt.png",
                 "url": "http://www.mayikt.com/",
                 "describe": "余胜军IT教学网站蚂蚁课堂专注于Java/Python课程：专注年轻人的IT在线教育平台，网站包含：java架构技术教程，微服务架构课程，高并发大流量专题，Redis缓存技术课程等。"
+            },
+            {
+                "name": "牛客网",
+                "icon": "https://www.nowcoder.com/favicon.ico",
+                "url": "https://www.nowcoder.com/",
+                "describe": "找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网"
+            },
+            {
+                "name": "中国大学MOOC",
+                "icon": "https://official.wentianplay.com/index/API/assets/siteIcons/icourse163.png",
+                "url": "https://www.icourse163.org/",
+                "describe": "中国大学MOOC_优质在线课程学习平台"
             },
             {
                 "name": "TRAE",
@@ -385,6 +403,12 @@
                 "icon": "https://36kr.com/favicon.ico",
                 "url": "https://36kr.com/",
                 "describe": "创业资讯、科技新闻"
+            },
+            {
+                "name": "Nature",
+                "icon": "https://www.nature.com/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
+                "url": "https://www.nature.com/",
+                "describe": "《自然》（Nature）是由亚历山大·麦克米伦与诺曼·洛克耶于1869年11月4日在英国伦敦创办的国际性科技期刊，现由Springer Nature出版，每周发行并涵盖多学科原创研究。"
             }
         ]
     }
