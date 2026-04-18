@@ -46,7 +46,7 @@
             },
             {
                 "name": "《天彬》官网",
-                "icon": "https://www.tianbin.net/icon.ico",
+                "icon": "https://www.tianbin.net/favicon.ico",
                 "url": "https://www.tianbin.net",
                 "describe": "《天彬TianBIN》官方网站"
             },
@@ -157,16 +157,16 @@
                 "describe": "快手是一款国民级短视频App。在快手，了解真实的世界，认识有趣的人，也可以记录真实而有趣的自己。快手，拥抱每一种 ..."
             },
             {
-                "name": "腾讯视频",
-                "icon": "https://v.qq.com/favicon.ico",
-                "url": "https://v.qq.com/",
-                "describe": "腾讯视频-中国领先的在线视频媒体平台,海量高清视频在线观看"
-            },
-            {
                 "name": "优酷",
                 "icon": "https://www.youku.com/favicon.ico",
                 "url": "https://www.youku.com/",
                 "describe": "优酷 - 为好内容全力以赴 - 海量正版高清视频在线观看"
+            },
+            {
+                "name": "腾讯视频",
+                "icon": "https://v.qq.com/favicon.ico",
+                "url": "https://v.qq.com/",
+                "describe": "腾讯视频-中国领先的在线视频媒体平台,海量高清视频在线观看"
             }
         ]
     },
@@ -253,8 +253,8 @@
             },
             {
                 "name": "蓝奏·云存储",
-                "icon": "https://wentianplay.lanzouu.com/favicon.ico",
-                "url": "https://wentianplay.lanzouu.com/",
+                "icon": "https://tianbin.lanzouu.com/favicon.ico",
+                "url": "https://tianbin.lanzouu.com/",
                 "describe": "网络就是我们的硬盘!!!"
             }
         ]
@@ -269,16 +269,16 @@
                 "describe": "中国教育考试网:教育部教育考试院于1994年面向社会推出了NCRE，其目的在于以考促学，向社会推广和普及计算机知识，也为用人部门录用和考核工作人员提供一个统一、客观、公正的标准。"            
             },
             {
-                "name": "CSDN",
-                "icon": "https://www.csdn.net/favicon.ico",
-                "url": "https://www.csdn.net/",
-                "describe": "CSDN是全球知名中文IT技术交流平台,创建于1999年,包含原创博客、精品问答、职业培训、技术论坛、资源下载等产品服务,提供原创、优质、完整内容的专业IT技术开发社区..."
-            },
-            {
                 "name": "Nssctf",
                 "icon": "https://www.nssctf.cn/favicon.ico",
                 "url": "https://www.nssctf.cn/",
                 "describe": "NSSCTF平台致力于提供开放、自由、共享的在线CTF体验，欢迎每一位热爱网络安全的用户加入。"
+            },
+            {
+                "name": "CSDN",
+                "icon": "https://www.csdn.net/favicon.ico",
+                "url": "https://www.csdn.net/",
+                "describe": "CSDN是全球知名中文IT技术交流平台,创建于1999年,包含原创博客、精品问答、职业培训、技术论坛、资源下载等产品服务,提供原创、优质、完整内容的专业IT技术开发社区..."
             },
             {
                 "name": "稀土掘金中国",
@@ -325,7 +325,7 @@
         ]
     },
     "游戏娱乐": {
-        "icon": "https://www.yomio.cn/favicon.ico",
+        "icon": "https://store.steampowered.com/favicon.ico",
         "data": [
             {
                 "name": "Steam",
