@@ -79,6 +79,12 @@
                 "icon": "https://www.wentianplay.net/favicon.ico",
                 "url": "https://www.wentianyou.cn",
                 "describe": "天彬文学学术期刊"
+            },
+            {
+                "name": "TianBIN",
+                "icon": "https://www.tianbin.net/favicon.ico",
+                "url": "https://www.tianbin.org",
+                "describe": "TianBIN Official Website"
             }
         ]
     },
