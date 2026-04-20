@@ -280,6 +280,12 @@
                 "icon": "https://unity.com/favicon.ico",
                 "url": "https://unity.com/",
                 "describe": "Unity——全球领先的3D游戏引擎一起开发、部署和成长。适用于所有主流平台，从移动端、PC、主机到XR等等......"
+            },
+            {
+                "name": "Unreal Engine",
+                "icon": "https://www.unrealengine.com/cosmos/static/favicons/favicon.ico",
+                "url": "https://www.unrealengine.com/",
+                "describe": "无论你有何构想，都可以利用虚幻引擎——世界上最先进的实时3D创作工具——将其变为现实。加入我们的开发者社区，立即 ..."
             }
         ]
     },
