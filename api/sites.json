@@ -274,11 +274,17 @@
                 "icon": "https://dotnet.microsoft.com/favicon.ico",
                 "url": "https://dotnet.microsoft.com/",
                 "describe": ".NET 是免费的、开源的、跨平台的框架，用于构建新式应用和强大的云服务。"
+            },
+            {
+                "name": "Unity",
+                "icon": "https://unity.com/favicon.ico",
+                "url": "https://unity.com/",
+                "describe": "Unity——全球领先的3D游戏引擎一起开发、部署和成长。适用于所有主流平台，从移动端、PC、主机到XR等等......"
             }
         ]
     },
     "教辅考刷": {
-        "icon": "https://ncre.neea.edu.cn/favicon.ico",
+        "icon": "https://ossjm.beiyongzhan.com/pub/img/hk_icon.svg",
         "data": [
             {
                 "name": "NCRE",
@@ -433,6 +439,17 @@
                 "icon": "https://www.nature.com/static/images/favicons/nature/apple-touch-icon-f39cb19454.png",
                 "url": "https://www.nature.com/",
                 "describe": "《自然》（Nature）是由亚历山大·麦克米伦与诺曼·洛克耶于1869年11月4日在英国伦敦创办的国际性科技期刊，现由Springer Nature出版，每周发行并涵盖多学科原创研究。"
+              }
+        ]
+    },
+    "友情链接": {
+        "icon": "https://www.wentianplay.net/favicon.ico",
+        "data": [
+            {
+                "name": "furup",
+                "icon": "https://furup.me/images/newlogo19ysp_lt.png",
+                "url": "https://furup.me/",
+                "describe": "暂无描述"
             }
         ]
     }
