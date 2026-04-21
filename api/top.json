@@ -4,12 +4,8 @@
   "backgroundImage": "https://example.com/background.jpg",
   "sections": [
     {
-      "name": "通知公告",
-      "dataUrl": "https://api.wentianplay.com/api/top_a.json"
-    },
-    {
-      "name": "新闻快讯",
-      "dataUrl": "https://api.wentianplay.com/api/top_b.json"
+      "name": "新闻资讯",
+      "dataUrl": "https://api.wentianplay.com/api/top-api.json"
     },
     {
       "name": "开发日志",
