@@ -4,12 +4,8 @@
   "backgroundImage": "https://example.com/background.jpg",
   "sections": [
     {
-      "name": "框架",
+      "name": "框架设定",
       "dataUrl": "https://api.wentianplay.com/api/tianbin.json"
-    },
-    {
-      "name": "设定",
-      "dataUrl": "https://api.wentianplay.com/api/tianbin_api.json"
     },
     {
       "name": "开发日志",
