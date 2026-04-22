@@ -5,7 +5,7 @@
   "sections": [
     {
       "name": "猎奇网",
-      "dataUrl": "https://api.wentianplay.com/api/top-sb-api.json"
+      "dataUrl": "https://api.wentianplay.com/api/top-sb.json"
     }
   ]
 }
