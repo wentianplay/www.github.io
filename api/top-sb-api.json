@@ -1,0 +1,11 @@
+{
+  "siteName": "猎奇网",
+  "favicon": "https://example.com/favicon.ico",
+  "backgroundImage": "https://example.com/background.jpg",
+  "sections": [
+    {
+      "name": "猎奇网",
+      "dataUrl": "https://api.wentianplay.com/api/top-sb-api.json"
+    }
+  ]
+}
