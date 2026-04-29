@@ -4,12 +4,8 @@
   "backgroundImage": "https://example.com/background.jpg",
   "sections": [
     {
-      "name": "学术期刊",
-      "dataUrl": "https://api.wentianplay.com/api/bbs_a.json"
-    },
-    {
-      "name": "文学随笔",
-      "dataUrl": "https://api.wentianplay.com/api/bbs_b.json"
+      "name": "文学学刊",
+      "dataUrl": "https://api.wentianplay.com/api/bbs_api.json"
     },
     {
       "name": "开发日志",
