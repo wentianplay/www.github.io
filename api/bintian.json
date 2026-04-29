@@ -1,15 +1,14 @@
-{
-  "siteName": "天彬TianBIN | 框架设定",
-  "favicon": "https://example.com/favicon.ico",
-  "backgroundImage": "https://example.com/background.jpg",
-  "sections": [
-    {
-      "name": "框架设定",
-      "dataUrl": "https://api.wentianplay.com/api/tianbin.json"
-    },
-    {
-      "name": "开发日志",
-      "dataUrl": "https://api.wentianplay.com/api/api.json"
-    }
-  ]
-}
+[
+  {
+    "title": "",
+    "date": "2026-04-22",
+    "author": "署名",
+    "content": ""
+  },
+  {
+    "title": "",
+    "date": "2026-04-22",
+    "author": "署名",
+    "content": ""
+  }
+]
