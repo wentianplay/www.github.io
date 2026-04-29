@@ -1,10 +1,18 @@
 {
-  "siteName": "天彬TianBIN ｜ 开发日志",
+  "siteName": "天彬TianBIN | 框架设定",
   "favicon": "https://example.com/favicon.ico",
   "backgroundImage": "https://example.com/background.jpg",
   "sections": [
     {
-      "name": "天彬TianBIN｜开发日志",
+      "name": "框架设定",
+      "dataUrl": "https://api.wentianplay.com/api/tianbin.json"
+    },
+    {
+      "name": "主线支线",
+      "dataUrl": "https://api.wentianplay.com/api/bintian.json"
+    },
+    {
+      "name": "开发日志",
       "dataUrl": "https://api.wentianplay.com/api/api.json"
     }
   ]
