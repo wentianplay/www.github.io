@@ -99,7 +99,7 @@
             },
             {
                 "name": "银行卡赞助渠道",
-                "icon": "https://www.wentianplay.net/favicon.ico",
+                "icon": "https://www.wentianplay.cn/sutianbin.webp",
                 "url": "https://www.wentianplay.cn/INDEX.html",
                 "describe": "苏天彬の中国工商银行借记卡"
             },
@@ -141,7 +141,7 @@
             }
         ]
     },
-    "视频平站": {
+    "视频平台": {
         "icon": "https://www.bilibili.com/favicon.ico",
         "data": [
             {
@@ -374,6 +374,12 @@
                 "icon": "https://store.steampowered.com/favicon.ico",
                 "url": "https://store.steampowered.com/",
                 "describe": "您可以在下方看到多款您可能感兴趣的产品。Steam是游戏、讨论和创造游戏的最终目的地。"
+            },
+            {
+                "name": "EPIC",
+                "icon": "https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico",
+                "url": "https://store.epicgames.com/",
+                "describe": "欢迎来到Epic游戏商城！下载畅玩各类 PC 平台游戏。模组、DLC 和免费游戏等你来享！总有一款游戏适合你。 《Kernel Hearts》是一款讲述魔法少女们为拯救世界而战的多人合作类 roguelike 动作角色扮 …"
             },
             {
                 "name": "Minecraft",
