@@ -460,6 +460,17 @@
               }
         ]
     },
+    "网站导航": {
+        "icon": "https://www.wentianplay.com/favicon.ico",
+        "data": [
+            {
+                "name": "中国工商银行",
+                "icon": "https://www.icbc.com.cn/favicon.ico",
+                "url": "https://www.icbc.com.cn/",
+                "describe": "工商银行金融服务全面介绍，投资理财信息丰富全面，在线交易方便快捷，满足客户专业化、多元化、人性化的金融服务需求，打造集业务、信息、交易、购物、互动于一体综合性 …"
+              }
+        ]
+    },
     "友情链接": {
         "icon": "https://www.wentianplay.com/favicon.ico",
         "data": [
