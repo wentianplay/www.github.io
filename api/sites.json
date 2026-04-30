@@ -1,5 +1,5 @@
 {
-    "官方网站": {
+    "官方域名": {
         "icon": "https://www.wentianplay.net/favicon.ico",
         "data": [
             {
@@ -88,7 +88,7 @@
             }
         ]
     },
-    "联系我们": {
+    "官方网站": {
         "icon": "https://www.wentianplay.net/favicon.ico",
         "data": [
             {
@@ -96,6 +96,12 @@
                 "icon": "https://www.wentianplay.net/favicon.ico",
                 "url": "https://official.wentianplay.com/index/",
                 "describe": "天彬TianBIN官方群聊"
+            },
+            {
+                "name": "银行卡赞助渠道",
+                "icon": "https://www.wentianplay.net/favicon.ico",
+                "url": "https://www.wentianplay.cn/INDEX.html",
+                "describe": "苏天彬の中国工商银行借记卡"
             },
             {
                 "name": "店铺(平台代营)",
