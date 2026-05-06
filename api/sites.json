@@ -1,5 +1,5 @@
 {
-    "官方域名": {
+    "官方网站": {
         "icon": "https://www.wentianplay.net/favicon.ico",
         "data": [
             {
@@ -88,7 +88,7 @@
             }
         ]
     },
-    "官方网站": {
+    "官方导航": {
         "icon": "https://www.wentianplay.net/favicon.ico",
         "data": [
             {
@@ -107,7 +107,7 @@
                 "name": "展开更多...",
                 "icon": "https://www.wentianplay.net/favicon.ico",
                 "url": "http://www.wentianyou.com/",
-                "describe": "内部使用の导航网站"
+                "describe": "内部御用导航"
             }
         ]
     },
