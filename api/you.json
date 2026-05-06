@@ -88,7 +88,18 @@
             }
         ]
     },
-    "官方网站": {
+    "赞助渠道": {
+        "icon": "https://www.wentianplay.net/favicon.ico",
+        "data": [
+            {
+               "name": "银行卡赞助渠道",
+                "icon": "https://www.wentianplay.cn/sutianbin.webp",
+                "url": "https://www.wentianplay.cn/INDEX.html",
+                "describe": "苏天彬の中国工商银行借记卡"
+            }
+        ]
+    },
+    "联系我们": {
         "icon": "https://www.wentianplay.net/favicon.ico",
         "data": [
             {
@@ -96,12 +107,6 @@
                 "icon": "https://www.wentianplay.net/favicon.ico",
                 "url": "https://official.wentianplay.com/index/",
                 "describe": "天彬TianBIN官方群聊"
-            },
-            {
-                "name": "银行卡赞助渠道",
-                "icon": "https://www.wentianplay.cn/sutianbin.webp",
-                "url": "https://www.wentianplay.cn/INDEX.html",
-                "describe": "苏天彬の中国工商银行借记卡"
             },
             {
                 "name": "邮箱联系(QQ)",
@@ -135,7 +140,18 @@
             }
         ]
     },
-    "内部办公": {
+    "我们频道": {
+        "icon": "https://www.wentianplay.net/favicon.ico",
+        "data": [
+            {
+                "name": "哔哩哔哩",
+                "icon": "https://www.bilibili.com/favicon.ico",
+                "url": "https://space.bilibili.com/1607684364",
+                "describe": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili"
+            }
+        ]
+    },
+    "网络科技": {
         "icon": "https://ossjm.oss-accelerate.aliyuncs.com/pub/img/juming_ico.ico",
         "data": [
             {
