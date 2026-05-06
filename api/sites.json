@@ -104,40 +104,10 @@
                 "describe": "苏天彬の中国工商银行借记卡"
             },
             {
-                "name": "店铺(平台代营)",
+                "name": "文天玩门户网站",
                 "icon": "https://www.wentianplay.net/favicon.ico",
-                "url": "http://g.wentianplay.com/",
-                "describe": "文天玩WenTian Play店铺-(平台代营)"
-            },
-            {
-                "name": "邮箱联系(QQ)",
-                "icon": "https://mail.qq.com/favicon.ico",
-                "url": "mailto:wentianplay@qq.com",
-                "describe": "苏天彬(苏文飞)-QQ邮箱"
-            },
-            {
-                "name": "邮箱联系(163网易)",
-                "icon": "https://mail.163.com/favicon.ico",
-                "url": "mailto:wentianplay@163.com",
-                "describe": "苏天彬(苏文飞)-163网易邮箱"
-            },
-            {
-                "name": "邮箱联系(foxmail)",
-                "icon": "https://www.foxmail.com/favicon.ico",
-                "url": "mailto:wentianplay@foxmail.com",
-                "describe": "苏天彬(苏文飞)-foxmail邮箱"
-            },
-            {
-                "name": "邮箱联系(Outlook)",
-                "icon": "https://www.outlook.com/owa/favicon.ico",
-                "url": "mailto:wentianplay@outlook.com",
-                "describe": "苏天彬(苏文飞)-Outlook邮箱"
-            },
-            {
-                "name": "邮箱联系(Gmail)",
-                "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
-                "url": "mailto:wentianplay@Gmail.com",
-                "describe": "苏天彬(苏文飞)-Gmail邮箱"
+                "url": "http://www.wentianyou.com/",
+                "describe": "文天玩WenTianPlay门户网站"
             }
         ]
     },
