@@ -151,7 +151,7 @@
             }
         ]
     },
-    "[网络]": {
+    "网络科技": {
         "icon": "https://ossjm.oss-accelerate.aliyuncs.com/pub/img/juming_ico.ico",
         "data": [
             {
@@ -189,12 +189,7 @@
                 "icon": "https://tianbin.lanzouu.com/favicon.ico",
                 "url": "https://tianbin.lanzouu.com/",
                 "describe": "网络就是我们的硬盘!!!"
-              }
-        ]
-    },
-    "[科技]": {
-        "icon": "https://ossjm.beiyongzhan.com/pub/img/hk_icon.svg",
-        "data": [
+            },
             {
                 "name": "中国工商银行",
                 "icon": "https://www.icbc.com.cn/favicon.ico",
