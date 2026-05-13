@@ -8,7 +8,7 @@
       "dataUrl": "https://api.wentianplay.com/api/tianbin.json"
     },
     {
-      "name": "主线支线",
+      "name": "剧情委托",
       "dataUrl": "https://api.wentianplay.com/api/bintian.json"
     },
     {
