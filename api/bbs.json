@@ -5,7 +5,7 @@
   "sections": [
     {
       "name": "文学学刊",
-      "dataUrl": "https://api.wentianplay.com/api/bbs_api.json"
+      "dataUrl": "https://api.tianbin.org/api/bbs.json"
     },
     {
       "name": "开发日志",
