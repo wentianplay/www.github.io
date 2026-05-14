@@ -5,7 +5,7 @@
   "sections": [
     {
       "name": "文学学刊",
-      "dataUrl": "https://api.tianbin.org/api/bbs.json"
+      "dataUrl": "https://api.tianbin.org/txt/bbs.json"
     },
     {
       "name": "开发日志",
