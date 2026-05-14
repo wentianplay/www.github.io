@@ -9,7 +9,7 @@
     },
     {
       "name": "开发日志",
-      "dataUrl": "https://api.tianbin.org/api/index.json"
+      "dataUrl": "https://api.tianbin.org/api/"
     }
   ]
 }
