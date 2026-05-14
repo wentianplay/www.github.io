@@ -5,7 +5,7 @@
   "sections": [
     {
       "name": "新闻资讯",
-      "dataUrl": "https://api.tianbin.org/txt/top-001.json"
+      "dataUrl": "https://api.tianbin.org/txt/top.json"
     },
     {
       "name": "开发日志",
