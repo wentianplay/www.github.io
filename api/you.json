@@ -195,6 +195,12 @@
                 "icon": "https://www.icbc.com.cn/favicon.ico",
                 "url": "https://www.icbc.com.cn/",
                 "describe": "工商银行金融服务全面介绍，投资理财信息丰富全面，在线交易方便快捷，满足客户专业化、多元化、人性化的金融服务需求，打造集业务、信息、交易、购物、互动于一体综合性 …"
+            },
+            {
+                "name": "阅文作家",
+                "icon": "https://write.qq.com/portal/public/images/favicon.ico",
+                "url": "https://write.qq.com/",
+                "describe": "作家助手是阅文集团诚意打造的一款全平台创作应用，覆盖Android、iOS、鸿蒙、桌面端，凭借流畅的用户体验、强大的创作工具、可视化的统计分析等优势，迅速 …"
             }
         ]
     }
